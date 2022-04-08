@@ -2,6 +2,9 @@
   --color-main: #004F6D;
   --color-background: #F9FAFB;
   --color-background-filters--closed: rgba(194, 194, 194, 0.5);
+  --max-width: 1440px;
+  --time-transaction: 250ms;
+
 }
 
 *{
@@ -26,18 +29,21 @@ header{
   z-index: 5;
 }
 
+.header__internal{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--max-width);
+}
+
 .header__title{
   color: white;
   font-size: 1.25rem;
 }
 
-main{
+.main{
   position: relative;
   height: 100vh;
-}
-
-.main--disabled-scroll{
-  overflow: hidden;
 }
 
 .filters{
@@ -55,18 +61,24 @@ main{
 }
 
 .filters__list{
+  max-width: 160px;
   display: none;
   right: 0;
   background-color: var(--color-background);
+  transition: var(--time-transaction);
 }
 
 .filters--opened{
   display: unset;
   position: fixed;
   padding: 8px;
-  width: 50%;
+  width: 100%;
   height: 100vh;
   z-index: 4;
+}
+
+.disabled-scroll{
+  overflow: hidden;
 }
 
 .filters__list-back-button{
@@ -134,5 +146,54 @@ main{
   margin-bottom: 4px;
 }
 
+@media screen and (min-width: 768px) {
+
+  .main{
+    display: flex;
+    margin: 0 auto;
+    max-width: var(--max-width);
+  }
+
+  .spells{
+    margin-top: 75px;
+    position: static;
+  }
+
+  .filters{
+    order: 1;
+    position: static;
+  }
+
+  .filters__background-aux{
+    display: none;
+  }
+  
+  .filters__list{
+    order: 2;
+    margin-top: 75px;
+    max-width: 200px;
+    display: unset;
+    right: 0;
+    background-color: var(--color-background);
+    transition: var(--time-transaction);
+  }
+
+  .header__btnOpenMenu{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .filters__list{
+    max-width: 250px;
+    display: unset;
+    right: 0;
+    background-color: var(--color-background);
+    transition: var(--time-transaction);
+  }
+
+}
 
 

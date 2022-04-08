@@ -1,32 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/styles.css" />
 
     <title>Mage 2nd - Community Spells</title>
   </head>
   <body>
-
     <header>
-      <h1 class="header__title">Mage 2nd - Community Spells</h1>
+      <section class="header__internal">
+        <h1 class="header__title">Mage 2nd - Community Spells</h1>
+        <button class="header__btnOpenMenu">OPEN</button>
+      </section>
     </header>
 
-    <main class="main--disabled-scroll">
-
+    <main class="main">
       <section class="filters">
+        <div class="filters__background-aux"></div>
 
-        <div class="filters__background-aux filters--opened"></div>
-
-        <ul class="filters__list filters--opened">
-
-          <span class="filters__list-back-button">BACK</span>
-
+        <ul class="filters__list">
           <li class="filters__list-item">
-            <input type="text" name="spellname" placeholder="Spellname">
+            <input type="text" name="spellname" placeholder="Spellname" />
             <button>Search</button>
           </li>
 
@@ -58,94 +55,158 @@
               <option value="master">Master (•••••)</option>
             </select>
           </li>
-
         </ul>
-
       </section>
 
       <section class="spells">
-
         <ul class="spells__list">
-
           <li class="spells__list__item">
             <h3 class="spell__name">Ectoplasmic Shaping (Death •)</h3>
-            <h4 class="spell__author"><strong>Author:</strong> White Wolf</h4>
+            <h4 class="spell__author">
+              <strong>Author:</strong>
+              White Wolf
+            </h4>
             <section class="spell__info">
-              <span class="info"><strong>Practice:</strong> Compelling</span>
-              <span class="info"><strong>Primary Factor:</strong> Duration</span>
-              <span class="info"><strong>Withstand:</strong> Resolve</span>
-              <span class="info"><strong>Suggested Rote Skills:</strong> Crafts, Occult, Larceny</span>
+              <span class="info">
+                <strong>Practice:</strong>
+                Compelling
+              </span>
+              <span class="info">
+                <strong>Primary Factor:</strong>
+                Duration
+              </span>
+              <span class="info">
+                <strong>Withstand:</strong>
+                Resolve
+              </span>
+              <span class="info">
+                <strong>Suggested Rote Skills:</strong>
+                Crafts, Occult, Larceny
+              </span>
             </section>
             <section class="spell__description">
               <p class="description">
-                The mage may shape and mold an ectoplasmic manifestation,
-                either conjured by another mage or from a Materialized ghost,
-                though the person or ghost that controls the ectoplasm may
-                Withstand the shaping. After a successful casting, the mage
-                shapes the ectoplasm into any shape he desires. The ectoplasm
-                remains in the new shape for the Duration of the spell. He can
-                use it to craft a mirror that reflects ghosts and other structures
-                in ghostly Twilight in a given area.</p>
+                The mage may shape and mold an ectoplasmic manifestation, either conjured by another mage or from a Materialized ghost, though the person or
+                ghost that controls the ectoplasm may Withstand the shaping. After a successful casting, the mage shapes the ectoplasm into any shape he
+                desires. The ectoplasm remains in the new shape for the Duration of the spell. He can use it to craft a mirror that reflects ghosts and other
+                structures in ghostly Twilight in a given area.
+              </p>
               <p class="description">
-                Also, the mage can use the ectoplasm to create the Open
-                Condition on an object or location for a ghost to Manifest
-                through. Ghosts lose the Manifested Condition once the spell’s
-                Duration ends.
+                Also, the mage can use the ectoplasm to create the Open Condition on an object or location for a ghost to Manifest through. Ghosts lose the
+                Manifested Condition once the spell’s Duration ends.
               </p>
             </section>
           </li>
 
           <li class="spells__list__item">
             <h3 class="spell__name">Deepen Shadows (Death •)</h3>
-            <h4 class="spell__author"><strong>Author:</strong> White Wolf</h4>
+            <h4 class="spell__author">
+              <strong>Author:</strong>
+              White Wolf
+            </h4>
             <section class="spell__info">
-              <span class="info"><strong>Practice:</strong> Compelling</span>
-              <span class="info"><strong>Primary Factor:</strong> Duration</span>
-              <span class="info"><strong>Suggested Rote Skills:</strong> Occult, Intimidation, Expression</span>
+              <span class="info">
+                <strong>Practice:</strong>
+                Compelling
+              </span>
+              <span class="info">
+                <strong>Primary Factor:</strong>
+                Duration
+              </span>
+              <span class="info">
+                <strong>Suggested Rote Skills:</strong>
+                Occult, Intimidation, Expression
+              </span>
             </section>
             <section class="spell__main-text">
               <p class="description">
-                The mage can influence the shadows in the spell’s area of effect,
-                deepening darkness and making the area nearly completely
-                pitch black. The area is affected by the Poor Light Environmental
-                Tilt for the Duration of the spell. </p>
+                The mage can influence the shadows in the spell’s area of effect, deepening darkness and making the area nearly completely pitch black. The area
+                is affected by the Poor Light Environmental Tilt for the Duration of the spell.
+              </p>
               <p class="reach">
-                <strong>+1 Reach:</strong> The mage is able to cause even greater darkness,
-                applying the Blinded Tilt to anyone within the spell’s area of
-                effect for the Duration of the spell.
+                <strong>+1 Reach:</strong>
+                The mage is able to cause even greater darkness, applying the Blinded Tilt to anyone within the spell’s area of effect for the Duration of the
+                spell.
               </p>
             </section>
           </li>
 
           <li class="spells__list__item">
             <h3 class="spell__name">Shadow Sculpting (Death •)</h3>
-            <h4 class="spell__author"><strong>Author:</strong> White Wolf</h4>
+            <h4 class="spell__author">
+              <strong>Author:</strong>
+              White Wolf
+            </h4>
             <section class="spell__info">
-              <span class="info"><strong>Practice:</strong> Compelling</span>
-              <span class="info"><strong>Primary Factor:</strong> Duration</span>
-              <span class="info"><strong>Suggested Rote Skills:</strong> Occult, Intimidation, Expression</span>
+              <span class="info">
+                <strong>Practice:</strong>
+                Compelling
+              </span>
+              <span class="info">
+                <strong>Primary Factor:</strong>
+                Duration
+              </span>
+              <span class="info">
+                <strong>Suggested Rote Skills:</strong>
+                Occult, Intimidation, Expression
+              </span>
             </section>
             <section class="spell__main-text">
               <p class="description">
-                The mage can influence the shadows in the spell’s area of effect,
-                deepening darkness and making the area nearly completely
-                pitch black. The area is affected by the Poor Light Environmental
-                Tilt for the Duration of the spell. </p>
+                The mage can influence the shadows in the spell’s area of effect, deepening darkness and making the area nearly completely pitch black. The area
+                is affected by the Poor Light Environmental Tilt for the Duration of the spell.
+              </p>
               <p class="reach">
-                <strong>+1 Reach:</strong> The mage is able to cause even greater darkness,
-                applying the Blinded Tilt to anyone within the spell’s area of
-                effect for the Duration of the spell.
+                <strong>+1 Reach:</strong>
+                The mage is able to cause even greater darkness, applying the Blinded Tilt to anyone within the spell’s area of effect for the Duration of the
+                spell.
               </p>
             </section>
           </li>
 
+          <li class="spells__list__item">
+            <h3 class="spell__name">Ectoplasmic Shaping (Death •)</h3>
+            <h4 class="spell__author">
+              <strong>Author:</strong>
+              White Wolf
+            </h4>
+            <section class="spell__info">
+              <span class="info">
+                <strong>Practice:</strong>
+                Compelling
+              </span>
+              <span class="info">
+                <strong>Primary Factor:</strong>
+                Duration
+              </span>
+              <span class="info">
+                <strong>Withstand:</strong>
+                Resolve
+              </span>
+              <span class="info">
+                <strong>Suggested Rote Skills:</strong>
+                Crafts, Occult, Larceny
+              </span>
+            </section>
+            <section class="spell__description">
+              <p class="description">
+                The mage may shape and mold an ectoplasmic manifestation, either conjured by another mage or from a Materialized ghost, though the person or
+                ghost that controls the ectoplasm may Withstand the shaping. After a successful casting, the mage shapes the ectoplasm into any shape he
+                desires. The ectoplasm remains in the new shape for the Duration of the spell. He can use it to craft a mirror that reflects ghosts and other
+                structures in ghostly Twilight in a given area.
+              </p>
+              <p class="description">
+                Also, the mage can use the ectoplasm to create the Open Condition on an object or location for a ghost to Manifest through. Ghosts lose the
+                Manifested Condition once the spell’s Duration ends.
+              </p>
+            </section>
+          </li>
         </ul>
-
       </section>
-
     </main>
 
     <footer></footer>
-    
+
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
