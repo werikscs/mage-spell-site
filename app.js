@@ -2,8 +2,12 @@ import setupOpenCloseMenu from './src/js/setupOpenCloseMenu.js';
 import { dbSpells } from './src/db/dbSpells.js';
 import { createSpellCard } from './src/js/createSpellCard.js';
 
+const ulSpells = document.querySelector('.spells__list');
+// console.log(ulSpells);
+
 setupOpenCloseMenu();
 searchForArcana();
+
 
 
 function searchForArcana(){
@@ -46,7 +50,8 @@ function searchForSpell(spellList){
 
   spellList.forEach( spell => {
 
-    createSpellCard(spell);
+    const spellCard = createSpellCard(spell);
+    ulSpells.appendChild(spellCard);
 
   });
 
