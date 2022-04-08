@@ -1,0 +1,63 @@
+.spells__list__item{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.spells__list__item:last-child{
+  border-bottom: none;
+}
+
+.spells__list__item * {
+  font-size: var(--font-size);
+}
+
+.spell__name{
+  font-size: var(--font-size-name);
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+.spell__author{
+  padding-left: 10px;
+  margin-top: -5px;
+  font-size: var(--font-size-author);
+  font-weight: 400;
+}
+
+.spell__author .author__title{
+  font-size: var(--font-size-author);
+}
+
+.spell__info{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  gap: 4px;
+}
+
+.spell__description{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.spell__description:last-child{
+  margin-bottom: 8px;
+}
+
+.spell__description .others{
+  text-indent: 10px;
+  font-size: var(--font-size);
+}
+
+.spell__description .others__title{
+  font-size: var(--font-size);
+  font-weight: bold;
+}
+
+.description{
+  text-indent: 10px;
+  text-align: justify;
+}

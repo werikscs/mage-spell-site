@@ -3,7 +3,7 @@ export const createSpellCard = (spellObj) => {
   // console.log(spellObj);
 
   const name = spellObj.identity.name;
-  const author = spellObj.identity.author || '';
+  const author = spellObj.identity.author || 'unknown';
   // console.log(name, author);
 
   const pratice = spellObj.properties['practice'];
@@ -27,7 +27,7 @@ export const createSpellCard = (spellObj) => {
     <h3 class="spell__name">${name}</h3>
 
     <h4 class="spell__author">
-      <strong>Author:</strong>
+      <span class="author__title">Author:</span>
       ${author}
     </h4>
 
@@ -91,25 +91,28 @@ export const createSpellCard = (spellObj) => {
       // console.log('titulo: ',key)
       // console.log('descrição: ',otherObj[key])
       const p = document.createElement('p');
-      p.classList.add('info');
+      p.classList.add('others');
 
       p.innerHTML = 
       `
-        <strong>${key}:</strong>
+        <span class="others__title">${key}:</span>
         ${otherObj[key]}
       `
       othersPs.push(p)
     }
   }
 
-  const sectionOthers = document.createElement('section');
-  sectionOthers.classList.add('spell__description');
-  
-  othersPs.forEach( p => {
-    sectionOthers.appendChild(p);
-  })
+  if(othersPs.length){
 
-  li.appendChild(sectionOthers);
+    const sectionOthers = document.createElement('section');
+    sectionOthers.classList.add('spell__description');
+    
+    othersPs.forEach( p => {
+      sectionOthers.appendChild(p);
+    })
+  
+    li.appendChild(sectionOthers);
+  }
 
 
   return li;

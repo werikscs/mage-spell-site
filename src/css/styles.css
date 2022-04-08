@@ -1,10 +1,14 @@
 :root{
-  --color-main: #004F6D;
-  --color-background: #F9FAFB;
+  --color-primary: #004e6e;
+  --color-primary-50: #e0e8ef;
   --color-background-filters--closed: rgba(194, 194, 194, 0.5);
-  --max-width: 1440px;
+  --max-width: 1780px;
+  --width-filter-768: 200px;
+  --width-filter-1024: 270px;
   --time-transaction: 250ms;
-
+  --font-size: 1rem;
+  --font-size-name: 1.15rem;
+  --font-size-author: 0.8rem;
 }
 
 *{
@@ -25,20 +29,27 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-main);
+  background-color: var(--color-primary);
   z-index: 5;
 }
 
 .header__internal{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   max-width: var(--max-width);
 }
 
 .header__title{
   color: white;
   font-size: 1.25rem;
+  margin: 0 auto;
+}
+
+.header__menuIcon{
+  padding-right: 16px;
+  color: #ffffff;
 }
 
 .main{
@@ -64,7 +75,8 @@ header{
   max-width: 160px;
   display: none;
   right: 0;
-  background-color: var(--color-background);
+  padding: 8px;
+  background-color: var(--color-primary-50);
   transition: var(--time-transaction);
 }
 
@@ -96,53 +108,22 @@ header{
 }
 
 .spells__list{
-
-}
-
-.spells__list__item{
-  margin-top: 8px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid rgb(194, 194, 194);
-}
-
-.spells__list__item:last-child{
-  margin-top: 8px;
-  padding-bottom: 8px;
-  border-bottom: none;
-}
-
-.spells__list__item > *{
-  margin-bottom: 4px;
-}
-
-.spell__name{
-  color: var(--color-main);
-}
-
-.spell__author{
-  text-indent: 10px;
-  font-size: 0.65rem;
-  font-weight: 400;
-}
-
-.spell__info{
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
+  gap: 8px;
 }
 
-.spell__info .info{
-  font-size: 0.75rem;
-}
-
-.description, .reach{
-  text-indent: 10px;
-  text-align: justify;
-  font-size: 0.85rem;
-  margin-bottom: 4px;
-}
 
 @media screen and (min-width: 768px) {
+
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    z-index: 5;
+  }
 
   .main{
     display: flex;
@@ -153,11 +134,18 @@ header{
   .spells{
     margin-top: 75px;
     position: static;
+    padding: 16px;
+  }
+
+  .spells__list{
+    margin-right: var(--width-filter-768);
   }
 
   .filters{
-    order: 1;
-    position: static;
+    position: fixed;
+    right: 0px;
+    width: var(--width-filter-768);
+    height: 100%;
   }
 
   .filters__background-aux{
@@ -166,30 +154,67 @@ header{
   
   .filters__list{
     order: 2;
-    margin-top: 75px;
-    max-width: 200px;
+    width: 100%;
+    max-width: var(--width-filter-768);
     display: unset;
     right: 0;
-    background-color: var(--color-background);
+    padding: 16px;
+    background-color: var(--color-primary-50);
     transition: var(--time-transaction);
   }
 
-  .header__btnOpenMenu{
+  .header__menuIcon{
     display: none;
   }
 
 }
 
 @media screen and (min-width: 1024px) {
+
+  .main{
+
+  }
+
+  .spells{
+    /* width: calc(100% - var(--width-filter-1024)); */
+    width: 100%;
+    overflow: scroll;
+  }
+
+  .spells__list{
+    justify-content: center;
+    margin: 0;
+    flex-flow: row wrap;
+    gap: 32px;
+  }
+
+  .spells__list__item{
+    max-width: 340px;
+  }
   
+  .filters{
+    order: 2;
+    position: sticky;
+    margin-top: 75px;
+    width: var(--width-filter-1024);
+    height: 100%;
+  }
+
   .filters__list{
-    max-width: 250px;
+    width: 100%;
+    max-width: var(--width-filter-1024);
     display: unset;
     right: 0;
-    background-color: var(--color-background);
+    background-color: var(--color-primary-50);
     transition: var(--time-transaction);
   }
 
+}
+
+@media screen and (min-width: 1440px) {
+  
+
+  
 }
 
 
