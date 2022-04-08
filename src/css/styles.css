@@ -81,10 +81,6 @@ header{
   overflow: hidden;
 }
 
-.filters__list-back-button{
-
-}
-
 .filters__list-item{
   display: flex;
   flex-direction: column;
