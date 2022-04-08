@@ -17,7 +17,6 @@ const setupOpenCloseMenu = () => {
     filterBgAux.classList.toggle('filters--opened');
     ulFiltersList.classList.toggle('filters--opened');
 
-
   });
 
 
