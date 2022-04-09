@@ -21,6 +21,13 @@ const setupOpenCloseMenu = () => {
 
   });
 
+  window.addEventListener('resize', () => {
+
+    filterBgAux.classList.remove('filters--opened');
+    ulFiltersList.classList.remove('filters--opened');
+
+  });
+
   function toggleShowFilters(){
 
     filterBgAux.classList.toggle('filters--opened');

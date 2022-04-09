@@ -23,7 +23,8 @@
 }
 
 .spell__name{
-  text-indent: 10px;
+  margin-left: 10px;
+  margin-right: 25px;
   font-size: var(--font-size-name);
   color: #004e6e;
   font-weight: 600;
