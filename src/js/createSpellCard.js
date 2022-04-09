@@ -5,6 +5,7 @@ export const createSpellCard = (spellObj) => {
 
   const name = spellObj.identity.name;
   const author = spellObj.identity.author || 'unknown';
+  const favoriteStatus = isFavorite(name) ? 'fav' : 'unfav';
   // console.log(name, author);
 
   const pratice = spellObj.properties['practice'];
@@ -27,7 +28,7 @@ export const createSpellCard = (spellObj) => {
   li.innerHTML = 
   `
 
-    <i class="star unfav fas fa-star"></i>
+    <i class="star ${favoriteStatus} fas fa-star"></i>
 
     <h3 class="spell__name">${name}</h3>
 
@@ -121,4 +122,13 @@ export const createSpellCard = (spellObj) => {
 
 
   return li;
+}
+
+export function isFavorite(spellName){
+
+  const arrayNames = localStorage.getItem('spellsNames') ?
+    JSON.parse(localStorage.getItem('spellsNames')) : [];
+
+  return arrayNames.includes(spellName);
+
 }

@@ -5,6 +5,7 @@ import { createSpellCard } from './src/js/createSpellCard.js';
 const ulSpells = document.querySelector('.spells__list');
 let searchedArcana = 'all';
 let searchedDegree = 'all';
+let favoriteArray = [];
 // console.log(ulSpells);
 
 // const searchedText = document.querySelector('#searchInput');
@@ -20,6 +21,8 @@ function searchForArcana(){
     searchForDegreeList(currentArcana);
 
   }
+
+  favoriteArray = [];
 
 }
 
@@ -70,8 +73,23 @@ function searchForSpell(spellList){
 
   spellList.forEach( spell => {
 
-    const spellCard = createSpellCard(spell);
-    ulSpells.appendChild(spellCard);
+    const spellName = spell.identity.name;
+
+    if(favoriteArray.length){
+
+      if(favoriteArray.includes(spellName)){
+        const spellCard = createSpellCard(spell);
+        ulSpells.appendChild(spellCard);
+      }
+
+    } else {
+
+      const spellCard = createSpellCard(spell);
+      ulSpells.appendChild(spellCard);
+
+    }
+
+    
 
   });
 
@@ -90,6 +108,18 @@ const selectDegrees = document.querySelector('#degrees');
 selectDegrees.addEventListener('change', (e) => {
   searchedDegree = e.target.value;
   searchForArcana();
+});
+
+const favoriteButton = document.querySelector('.favorite');
+favoriteButton.addEventListener('click', () => {
+
+  favoriteArray = localStorage.getItem('spellsNames') ?
+    JSON.parse(localStorage.getItem('spellsNames')) : [];
+
+  if(favoriteArray.length){
+    searchForArcana();
+  }
+
 });
 
 ulSpells.addEventListener('click', (e) => {
