@@ -1,5 +1,5 @@
 :root{
-  --color-spell-name: #8098b2;
+  --color-spell-name: #004e6e;
   --color-spell-body: #ffffff;
   --padding-spell-body: 0 8px;
 }
@@ -26,10 +26,9 @@
   margin-left: 10px;
   margin-right: 25px;
   font-size: var(--font-size-name);
-  color: #004e6e;
+  color: var(--color-spell-name);
   font-weight: 600;
   padding: 8px 0;
-  /* background-color: #004e6e; */
   border-radius: 2px 2px 0 0;
 }
 
@@ -76,4 +75,16 @@
 .description{
   text-indent: 10px;
   text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+  
+  .spells__list__item{
+    padding: 8px;
+  }
+
+  .spell__name{
+    font-size: 1.35rem;
+  }
+
 }
