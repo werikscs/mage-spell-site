@@ -89,7 +89,14 @@ header{
   right: 0;
   padding: 8px;
   background-color: var(--color-primary-50);
-  transition: var(--time-transaction);
+}
+
+.favorite{
+  cursor: pointer;
+}
+
+.favorite:hover{
+  filter: brightness(0.9);
 }
 
 .filters--opened{
@@ -125,6 +132,36 @@ header{
   gap: 8px;
 }
 
+.spells__list__item{
+  position: relative;
+}
+
+.star{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 8px;
+  cursor: pointer;
+}
+
+.fav{
+  color: orange;
+}
+
+.fav:hover{
+  color: rgb(255, 200, 99);
+}
+
+.unfav{
+  color: rgba(0, 64, 94, 0.15);
+}
+
+.unfav:hover{
+  color: rgba(0, 64, 94, 0.45);
+}
+
+
+
 
 @media screen and (min-width: 768px) {
 
@@ -138,12 +175,12 @@ header{
   }
 
   .header__internal{
-    justify-content: flex-start;
-    padding-left: 16px;
+    justify-content: space-between;
+    padding: 0 16px;
   }
 
   .header__title{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin: 0;
   }
 
@@ -154,7 +191,7 @@ header{
   .main{
     display: flex;
     margin: 0 auto;
-    max-width: var(--max-width);
+    /* max-width: var(--max-width); */
   }
 
   .spells{
@@ -164,14 +201,11 @@ header{
   }
 
   .spells__list{
-    margin-right: var(--width-filter-768);
+    margin-right: 0;
   }
 
   .filters{
-    position: fixed;
-    right: 0px;
-    width: var(--width-filter-768);
-    height: 100%;
+    position: static;
   }
 
   .filters__background-aux{
@@ -179,14 +213,49 @@ header{
   }
   
   .filters__list{
-    order: 2;
-    width: 100%;
-    max-width: var(--width-filter-768);
-    display: unset;
-    right: 0;
-    padding: 24px 16px;
-    background-color: var(--color-primary-50);
-    transition: var(--time-transaction);
+    width: unset;
+    display: flex;
+    align-items: center;
+    max-width: none;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .filters__list-item{
+    padding: 0 0 0 8px;
+  }
+
+  select{
+    height: 25px;
+  }
+
+  label, .favorite{
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .filter__input-search{
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    height: 25px;
+  }
+
+  .search-input{
+    padding: 0 8px;
+  }
+
+  .search-button{
+    cursor: pointer;
+  }
+
+  .filter__arcana{
+
+  }
+
+  .filter__degree{
+
   }
 
   .header__menuIcon{
@@ -217,10 +286,11 @@ header{
   }
 
   .spells__list__item{
-    max-width: 340px;
+    align-self: stretch;
+    flex: 1 1 45%;
   }
   
-  .filters{
+  /* .filters{
     order: 2;
     position: sticky;
     margin-top: 75px;
@@ -235,13 +305,15 @@ header{
     right: 0;
     background-color: var(--color-primary-50);
     transition: var(--time-transaction);
-  }
+  } */
 
 }
 
 @media screen and (min-width: 1440px) {
   
-
+  .spells__list__item{
+    flex: 1 1 30%;
+  }
   
 }
 

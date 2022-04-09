@@ -3,6 +3,7 @@ export const dbSpells = [
     "death":{
       "initiate":[
         {
+          "id":1,
           "identity":{
             "name":"Carry on, my Wayward Son (Death •)",
             "author":"by Frishman "
@@ -18,6 +19,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":2,
           "identity":{
             "name":"Death Perception (Death •, Life •)",
             "author":"by Dark Archon"
@@ -37,6 +39,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":3,
           "identity":{
             "name":"Discover the Reaper (Death •)",
             "author":"by Masa"
@@ -56,6 +59,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":4,
           "identity":{
             "name":"Executioner’s Sight (Death •)",
             "author":"by Menace"
@@ -75,6 +79,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":5,
           "identity":{
             "name":"Killer Instinct (Death •)",
             "author":"by Five Eyes"
@@ -112,6 +117,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":6,
           "identity":{
             "name":"Revealing Shadows (Death •)",
             "author":"by Neros"
@@ -131,6 +137,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":7,
           "identity":{
             "name":"Probing the Shadows (Death •)",
             "author":"by Tea Time"
@@ -153,6 +160,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":8,
           "identity":{
             "name":"See the Cracks (Death •)",
             "author":"by Justin Sane"
@@ -173,6 +181,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":9,
           "identity":{
             "name":"Sense Undead (Death •)",
             "author":"by Dark Archon"
@@ -197,6 +206,7 @@ export const dbSpells = [
       ],
       "apprentice":[
         {
+          "id":10,
           "identity":{
             "name":"Body Heat Camouflage (Death ••)"
           },
@@ -210,6 +220,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":11,
           "identity":{
             "name":"Coldproof (Death ••)",
             "author":"by BeyondTheGrave"
@@ -224,6 +235,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":12,
           "identity":{
             "name":"Buried Anchor (Death ••)",
             "author":"by rwknoll"
@@ -238,6 +250,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":13,
           "identity":{
             "name":"Bolster Soul (Death ••)",
             "author":"by Frishman"
@@ -258,6 +271,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":14,
           "identity":{
             "name":"Corpse Marionette (Death ••)",
             "author":"by Inodiv"
@@ -281,6 +295,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":15,
           "identity":{
             "name":"Mirror Mirror (Death ••)",
             "author":"by Frishman"
@@ -296,6 +311,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":16,
           "identity":{
             "name":"There’ll Be Peace When You Are Done (Death ••)"
           },
@@ -312,6 +328,7 @@ export const dbSpells = [
       ],
       "disciple":[
         {
+          "id":17,
           "identity":{
             "name":"Black Light (Death •••, Forces •••)",
             "author":"by Neros"
@@ -326,6 +343,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":18,
           "identity":{
             "name":"Cryo-Phasing (Death •••)",
             "author":"by BeyondTheGrave"
@@ -348,6 +366,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":19,
           "identity":{
             "name":"Cursed Wounds (Death •••)",
             "author":"by 21C Hermit"
@@ -370,6 +389,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":20,
           "identity":{
             "name":"Disperse Wounds (Death •••)",
             "author":"by 21C Hermit"
@@ -398,6 +418,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":21,
           "identity":{
             "name":"End Debate (Death •••)",
             "author":"by amechra"
@@ -421,6 +442,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":22,
           "identity":{
             "name":"Ephemeral Touch (Death •••)",
             "author":"by Inodiv"
@@ -440,6 +462,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":23,
           "identity":{
             "name":"Faces of Death (Death •••)",
             "author":"By Inodiv"
@@ -460,6 +483,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":24,
           "identity":{
             "name":"Fracture Soul (Death •••)",
             "author":"by Frishman"
@@ -475,6 +499,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":25,
           "identity":{
             "name":"Fester the People (Death •••)",
             "author":"by Moinen"
@@ -500,6 +525,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":26,
           "identity":{
             "name":"Freezing Slash (Death •••)",
             "author":"by BeyondTheGrave"
@@ -528,6 +554,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":27,
           "identity":{
             "name":"The Great Equalizer (Death •••)",
             "author":"by WHW"
@@ -554,6 +581,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":28,
           "identity":{
             "name":"Hasten End (Death •••)",
             "author":"by Frishman"
@@ -569,6 +597,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":29,
           "identity":{
             "name":"I Am Many (Death •••)",
             "author":"by Moinen"
@@ -600,6 +629,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":30,
           "identity":{
             "name":"Invest Soul (Death •••)",
             "author":"by Satchel"
@@ -637,6 +667,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":31,
           "identity":{
             "name":"Kill Box (Death •••)",
             "author":"by MercSet"
@@ -659,6 +690,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":32,
           "identity":{
             "name":"Lay Your Weary Head to Rest (Death •••)",
             "author":"by Frishman"
@@ -679,6 +711,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":33,
           "identity":{
             "name":"Lethal Weapon (Death •••)",
             "author":"by Menace"
@@ -704,6 +737,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":34,
           "identity":{
             "name":"Mend Soul (Death •••)",
             "author":"by Mr.F.I.X"
@@ -724,6 +758,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":35,
           "identity":{
             "name":"Mortal Frailty (Death •••)",
             "author":"by Five Eyes"
@@ -750,6 +785,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":36,
           "identity":{
             "name":"Nihilism (Death •••)",
             "author":"by espritdecalmar"
@@ -770,6 +806,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":37,
           "identity":{
             "name":"Soul Fire (Death •••, Forces •••)",
             "author":"by Neros"
@@ -784,6 +821,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":38,
           "identity":{
             "name":"Stories Bones Tell (Death •••)",
             "author":"by Flinty "
@@ -806,6 +844,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":39,
           "identity":{
             "name":"Touch of Sacrifice (Death •••)",
             "author":"by 21C Hermit"
@@ -831,6 +870,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":40,
           "identity":{
             "name":"Undead Endurance (Death •••)",
             "author":"by 21C Hermit"
@@ -863,6 +903,7 @@ export const dbSpells = [
       ],
       "adept":[
         {
+          "id":41,
           "identity":{
             "name":"Body of the Dead (Death ••••)"
           },
@@ -893,6 +934,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":42,
           "identity":{
             "name":"Bomb Disposal (Death ••••)",
             "author":"by BeyondTheGrave"
@@ -912,6 +954,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":43,
           "identity":{
             "name":"Cryonic Sleep (Death ••••)",
             "author":"by BeyondTheGrave"
@@ -931,6 +974,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":44,
           "identity":{
             "name":"Death Fetish (Death ••••)",
             "author":"By Inodiv"
@@ -949,6 +993,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":45,
           "identity":{
             "name":"Destroy Wounds (Death ••••)",
             "author":"by Inodiv"
@@ -968,6 +1013,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":46,
           "identity":{
             "name":"Don’t You Cry No More (Death ••••)",
             "author":"by Frishman"
@@ -988,6 +1034,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":47,
           "identity":{
             "name":"Echo to Echo (Death ••••)",
             "author":"by Aeryes"
@@ -1015,6 +1062,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":48,
           "identity":{
             "name":"Ghost Fire (Death ••••, Forces ••••)"
           },
@@ -1042,6 +1090,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":49,
           "identity":{
             "name":"Kill Magic (Death ••••)",
             "author":"By Inodiv"
@@ -1057,6 +1106,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":50,
           "identity":{
             "name":"Many Morbid Forms (Death ••••)",
             "author":"By Inodiv"
@@ -1080,6 +1130,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":51,
           "identity":{
             "name":"Morbid Projection (Death ••••)",
             "author":"by Five Eyes "
@@ -1110,6 +1161,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":52,
           "identity":{
             "name":"Rapid Claim (Death ••••)",
             "author":"By Inodiv"
@@ -1130,6 +1182,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":53,
           "identity":{
             "name":"Restore the Foundation (Death ••••)",
             "author":"by Frishman"
@@ -1146,6 +1199,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":54,
           "identity":{
             "name":"Shadow Golem (Death ••••)",
             "author":"by Aristarkos"
@@ -1174,6 +1228,7 @@ export const dbSpells = [
       ],
       "master":[
         {
+          "id":55,
           "identity":{
             "name":"Create Zombie (Death •••••)",
             "author":"By Inodiv"
@@ -1196,6 +1251,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":56,
           "identity":{
             "name":"Demonic Ice (Death •••••)",
             "author":"by BeyondTheGrave"
@@ -1211,6 +1267,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":57,
           "identity":{
             "name":"Final Seal (Death •••••)",
             "author":"by Inodiv"
@@ -1237,6 +1294,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":58,
           "identity":{
             "name":"Offering Table (Death •••••)",
             "author":"by espritdecalmar"
@@ -1268,6 +1326,7 @@ export const dbSpells = [
     "fate":{
       "initiate":[
         {
+          "id":59,
           "identity":{
             "name":"Foreshadow (Fate •)",
             "author":"by espritdecalmar"
@@ -1289,6 +1348,7 @@ export const dbSpells = [
       ],
       "apprentice":[
         {
+          "id":60,
           "identity":{
             "name":"Devil’s Whisper (Fate ••, Mind •)",
             "author":"by Gantolandon"
@@ -1312,6 +1372,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":61,
           "identity":{
             "name":"No Tomorrow (Fate ••)",
             "author":"by Flinty"
@@ -1335,6 +1396,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":62,
           "identity":{
             "name":"Predetermination (Fate ••)",
             "author":"by Flinty"
@@ -1350,6 +1412,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":63,
           "identity":{
             "name":"Silence of Harpocrates (Fate ••, Mind ••)",
             "author":"by KaiserAfini"
@@ -1372,6 +1435,7 @@ export const dbSpells = [
       ],
       "disciple":[
         {
+          "id":64,
           "identity":{
             "name":"Against the Odds (Fate •••)",
             "author":"by Menace"
@@ -1391,6 +1455,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":65,
           "identity":{
             "name":"Moral Dilemma (Fate •••)",
             "author":"by amechra"
@@ -1414,6 +1479,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":66,
           "identity":{
             "name":"Oath of Friendship (Fate •••)",
             "author":"by MovingMind"
@@ -1451,6 +1517,7 @@ export const dbSpells = [
       ],
       "adept":[
         {
+          "id":67,
           "identity":{
             "name":"Adrasteia (Fate ••••)",
             "author":"by Five Eyes"
@@ -1489,6 +1556,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":68,
           "identity":{
             "name":"Erase Name (Fate ••••)",
             "author":"by espritdecalmar"
@@ -1512,6 +1580,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":69,
           "identity":{
             "name":"Reversal of Fortune (Fate ••••)",
             "author":"by Ophidimancer"
@@ -1533,6 +1602,7 @@ export const dbSpells = [
       ],
       "master":[
         {
+          "id":70,
           "identity":{
             "name":"Downfall (Fate •••••)",
             "author":"by espritdecalmar"
@@ -1557,6 +1627,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":71,
           "identity":{
             "name":"Nobody (Fate •••••)",
             "author":"by Menace"
@@ -1571,6 +1642,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":72,
           "identity":{
             "name":"Valdemar's Gaol (Fate •••••, Time •••••)",
             "author":"by KaiserAfini"
@@ -1608,6 +1680,7 @@ export const dbSpells = [
     "forces":{
       "initiate":[
         {
+          "id":73,
           "identity":{
             "name":"Blind Man's Eyes (Forces •)",
             "author":"by Flinty"
@@ -1622,6 +1695,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":74,
           "identity":{
             "name":"Electronic Awareness (Forces •)",
             "author":"by Flinty"
@@ -1636,6 +1710,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":75,
           "identity":{
             "name":"Lightwarden (Forces •)",
             "author":"by Flinty"
@@ -1655,6 +1730,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":76,
           "identity":{
             "name":"Magnetoreception (Forces •)",
             "author":"by BeyondTheGrave"
@@ -1675,6 +1751,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":77,
           "identity":{
             "name":"Sense Vibrations (Force •)"
           },
@@ -1698,6 +1775,7 @@ export const dbSpells = [
       ],
       "apprentice":[
         {
+          "id":78,
           "identity":{
             "name":"Copy and Paste (Forces ••)",
             "author":"by Flinty"
@@ -1712,6 +1790,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":79,
           "identity":{
             "name":"Gravitic Ward (Forces ••)",
             "author":"by HerbertIsBertBert"
@@ -1732,6 +1811,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":80,
           "identity":{
             "name":"Helion Shield (Forces ••)",
             "author":"by Inodiv"
@@ -1751,6 +1831,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":81,
           "identity":{
             "name":"Mirage (Forces ••)",
             "author":"by LadyLens"
@@ -1765,6 +1846,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":82,
           "identity":{
             "name":"Invisible Air (Forces ••)",
             "author":"by 21C Hermit"
@@ -1790,6 +1872,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":83,
           "identity":{
             "name":"Pyre Ward (Forces ••)",
             "author":"by Inodiv"
@@ -1804,6 +1887,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":84,
           "identity":{
             "name":"Spark (Forces ••)",
             "author":"by Menace"
@@ -1818,6 +1902,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":85,
           "identity":{
             "name":"Stay Down (Forces ••)",
             "author":"by Moinen"
@@ -1837,6 +1922,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":86,
           "identity":{
             "name":"Surestep (Forces ••)",
             "author":"by Menace"
@@ -1858,6 +1944,7 @@ export const dbSpells = [
       ],
       "disciple":[
         {
+          "id":87,
           "identity":{
             "name":"Blazing Light (Forces •••)",
             "author":"by Justin Sane"
@@ -1877,6 +1964,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":88,
           "identity":{
             "name":"Firewall (Forces ••)",
             "author":"by BeyondTheGrave"
@@ -1891,6 +1979,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":89,
           "identity":{
             "name":"Form Blazing Sword (Forces •••)",
             "author":"by Five Eyes"
@@ -1922,6 +2011,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":90,
           "identity":{
             "name":"Lei Gong's Raiment (Forces •••)",
             "author":"by Five Eyes"
@@ -1950,6 +2040,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":91,
           "identity":{
             "name":"The Future Is Now (Forces •••)",
             "author":"by BeyondTheGrave"
@@ -1967,6 +2058,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":92,
           "identity":{
             "name":"Lightning Javelin (Forces •••)",
             "author":"by Yelesom"
@@ -1986,6 +2078,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":93,
           "identity":{
             "name":"Myopia (Forces •••)",
             "author":"by Dark Archon"
@@ -2000,6 +2093,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":94,
           "identity":{
             "name":"Rewrite System (Forces ••)",
             "author":"by BeyondTheGrave"
@@ -2022,6 +2116,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":95,
           "identity":{
             "name":"Strongman (Forces •••)",
             "author":"by BeyondTheGrave"
@@ -2041,6 +2136,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":96,
           "identity":{
             "name":"Sunstone (Forces •••)",
             "author":"By Inodiv"
@@ -2060,6 +2156,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":97,
           "identity":{
             "name":"Superstimulus (Forces •••)",
             "author":"by Aristarkos"
@@ -2078,6 +2175,7 @@ export const dbSpells = [
       ],
       "adept":[
         {
+          "id":98,
           "identity":{
             "name":"Burning Corpse (Forces ••••, Death ••••)",
             "author":"by Neros"
@@ -2097,6 +2195,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":99,
           "identity":{
             "name":"Digital Citizen (Forces ••••)",
             "author":"by BeyondTheGrave"
@@ -2116,6 +2215,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":100,
           "identity":{
             "name":"Hologram (Forces ••••)",
             "author":"by BeyondTheGrave"
@@ -2144,6 +2244,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":101,
           "identity":{
             "name":"Human Torch (Forces ••••, Life ••••)",
             "author":"by AmusedByIrony"
@@ -2166,6 +2267,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":102,
           "identity":{
             "name":"Mass Distortion (Forces ••••)",
             "author":"by Dark Archon"
@@ -2185,6 +2287,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":103,
           "identity":{
             "name":"Megacryometeor (Forces ••••)",
             "author":"by BeyondTheGrave"
@@ -2208,6 +2311,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":104,
           "identity":{
             "name":"Illusion (Forces ••••) ",
             "author":"by Menace"
@@ -2233,6 +2337,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":105,
           "identity":{
             "name":"Technostress (Forces ••••)",
             "author":"by BeyondTheGrave"
@@ -2250,6 +2355,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":106,
           "identity":{
             "name":"Transportation (Forces ••••, Matter ••••)",
             "author":"by HTaiji"
@@ -2278,6 +2384,7 @@ export const dbSpells = [
       ],
       "master":[
         {
+          "id":107,
           "identity":{
             "name":"Neo-Luddite (Forces •••••)",
             "author":"by BeyondTheGrave"
@@ -2298,6 +2405,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":108,
           "identity":{
             "name":"Social Engineering (Forces •••••)",
             "author":"by BeyondTheGrave"
@@ -2323,6 +2431,7 @@ export const dbSpells = [
     "life":{
       "initiate":[
         {
+          "id":109,
           "identity":{
             "name":"Ølrunar (Ale-runes) (Life •)",
             "author":"by EW-Mathias"
@@ -2337,6 +2446,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":110,
           "identity":{
             "name":"Sense Life (Life •)",
             "author":"by Dark Archon"
@@ -2362,6 +2472,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":111,
           "identity":{
             "name":"Spider Sense (Life •)",
             "author":"by Neros"
@@ -2381,6 +2492,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":112,
           "identity":{
             "name":"Stabilize (Life •)",
             "author":"by Pebbles"
@@ -2398,6 +2510,7 @@ export const dbSpells = [
       ],
       "apprentice":[
         {
+          "id":113,
           "identity":{
             "name":"Apparent Juggernaut (Life ••)",
             "author":"by Pale_Crusader"
@@ -2422,6 +2535,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":114,
           "identity":{
             "name":"Beta Consilium (Life ••)",
             "author":"by Inodiv"
@@ -2445,6 +2559,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":115,
           "identity":{
             "name":"Biological Invisibility (Life ••)",
             "author":"by Inodiv"
@@ -2459,6 +2574,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":116,
           "identity":{
             "name":"Deaden Nerves (Life ••)",
             "author":"by EW-Mathias"
@@ -2482,6 +2598,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":117,
           "identity":{
             "name":"False Health (Life ••)",
             "author":"by Neros"
@@ -2502,6 +2619,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":118,
           "identity":{
             "name":"Gladiator's Glare (Life ••)",
             "author":"by Arduras"
@@ -2516,6 +2634,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":119,
           "identity":{
             "name":"Hibernation (Life ••)",
             "author":"by Inodiv"
@@ -2542,6 +2661,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":120,
           "identity":{
             "name":"Invisible Fence (Life ••)",
             "author":"by Yelesom"
@@ -2564,6 +2684,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":121,
           "identity":{
             "name":"Predator’s Cloak (Life ••)",
             "author":"by Neros"
@@ -2584,6 +2705,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":122,
           "identity":{
             "name":"Transplant (Life ••)",
             "author":"by Menace"
@@ -2606,6 +2728,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":123,
           "identity":{
             "name":"Warden of Life (Life ••)",
             "author":"by Neros"
@@ -2633,6 +2756,7 @@ export const dbSpells = [
       ],
       "disciple":[
         {
+          "id":124,
           "identity":{
             "name":"Addictive Fluids (Life •••)",
             "author":"by Flinty, in “Flintys Homebrew Hub 2e” "
@@ -2653,6 +2777,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":125,
           "identity":{
             "name":"Analgesia (Life •••)",
             "author":"by Inodiv"
@@ -2667,6 +2792,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":126,
           "identity":{
             "name":"Battle Body (Life •••)",
             "author":"by Neros"
@@ -2689,6 +2815,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":127,
           "identity":{
             "name":"Blunt Blessing (Life •••)",
             "author":"by Arduras"
@@ -2702,6 +2829,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":128,
           "identity":{
             "name":"Channel Vitae (Life •••)",
             "author":"by Tessie"
@@ -2729,6 +2857,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":129,
           "identity":{
             "name":"Channel Vitae II (Life •••)",
             "author":"by projectmoon "
@@ -2753,6 +2882,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":130,
           "identity":{
             "name":"Feral Grit (Life •••)",
             "author":"by Arduras"
@@ -2767,6 +2897,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":131,
           "identity":{
             "name":"Societal Adaptation (Life •••)",
             "author":"by Inodiv"
@@ -2781,6 +2912,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":132,
           "identity":{
             "name":"Stop the Biological Clock (Life •••, Time ••)"
           },
@@ -2798,6 +2930,7 @@ export const dbSpells = [
       ],
       "adept":[
         {
+          "id":133,
           "identity":{
             "name":"Boneitis (Life ••••)",
             "author":"by Yelesom"
@@ -2822,6 +2955,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":134,
           "identity":{
             "name":"Gestalt form (Life ••••)",
             "author":"by BeyondTheGrave"
@@ -2846,6 +2980,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":135,
           "identity":{
             "name":"Vampirism (Life ••••)",
             "author":"by projectmoon"
@@ -2880,6 +3015,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":136,
           "identity":{
             "name":"Vitae Drain (Life ••••)",
             "author":"by Tessie"
@@ -2908,6 +3044,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":137,
           "identity":{
             "name":"Wrack (Life ••••)",
             "author":"by Yelesom"
@@ -2934,6 +3071,7 @@ export const dbSpells = [
       ],
       "master":[
         {
+          "id":138,
           "identity":{
             "name":"Create Vitae (Life •••••)",
             "author":"by projectmoon"
@@ -2965,6 +3103,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":139,
           "identity":{
             "name":"Vitae Fountain (Life •••••)",
             "author":"by Tessie"
@@ -2987,6 +3126,7 @@ export const dbSpells = [
           ]
         },
         {
+          "id":140,
           "identity":{
             "name":"Mana Vine (Life •••••, Prime ••• )",
             "author":"by Enlightened_Milkman"

@@ -1,6 +1,7 @@
 export const createSpellCard = (spellObj) => {
 
   // console.log(spellObj);
+  const spellID = spellObj.id;
 
   const name = spellObj.identity.name;
   const author = spellObj.identity.author || 'unknown';
@@ -21,9 +22,13 @@ export const createSpellCard = (spellObj) => {
 
   const li = document.createElement('li');
   li.classList.add('spells__list__item');
+  li.setAttribute('id',`${spellID}`);
 
   li.innerHTML = 
   `
+
+    <i class="star unfav fas fa-star"></i>
+
     <h3 class="spell__name">${name}</h3>
 
     <h4 class="spell__author">

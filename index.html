@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/13abe56eba.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/font-styles.css" />
     <link rel="stylesheet" href="./src/css/list-item.css" />
 
     <title>Mage: The Awakening 2nd - Community Spells</title>
@@ -19,51 +20,54 @@
           Mage: The Awakening 2nd
           <p>Community Spells</p>
         </h1>
+
+        <section class="filters">
+          <div class="filters__background-aux"></div>
+
+          <ul class="filters__list">
+            <li class="favorite">Favoritos</li>
+
+            <li class="filters__list-item filter__input-search">
+              <input class="search-input" type="text" name="spellname" placeholder="Spellname" />
+              <button class="search-button">Search</button>
+            </li>
+
+            <li class="filters__list-item filter__arcana">
+              <label for="arcana">Arcana</label>
+              <select name="arcanas" id="arcanas">
+                <option value="all" selected>All</option>
+                <option value="death">Death</option>
+                <option value="fate">Fate</option>
+                <option value="forces">Forces</option>
+                <option value="life">Life</option>
+                <option value="matter">Matter</option>
+                <option value="mind">Mind</option>
+                <option value="prime">Prime</option>
+                <option value="space">Space</option>
+                <option value="spirit">Spirit</option>
+                <option value="time">Time</option>
+              </select>
+            </li>
+
+            <li class="filters__list-item filter__degree">
+              <label for="degrees">Degree</label>
+              <select name="degrees" id="degrees">
+                <option value="all" selected>All</option>
+                <option value="initiate">Initiate (•)</option>
+                <option value="apprentice">Apprentice (••)</option>
+                <option value="disciple">Disciple (•••)</option>
+                <option value="adept">Adept (••••)</option>
+                <option value="master">Master (•••••)</option>
+              </select>
+            </li>
+          </ul>
+        </section>
+
         <i class="header__menuIcon fa-solid fa-bars"></i>
       </section>
     </header>
 
     <main class="main">
-      <section class="filters">
-        <div class="filters__background-aux"></div>
-
-        <ul class="filters__list">
-          <li class="filters__list-item">
-            <input id="searchInput" type="text" name="spellname" placeholder="Spellname" />
-            <button>Search</button>
-          </li>
-
-          <li class="filters__list-item">
-            <label for="arcana">Arcana</label>
-            <select name="arcanas" id="arcanas">
-              <option value="all" selected>All</option>
-              <option value="death">Death</option>
-              <option value="fate">Fate</option>
-              <option value="forces">Forces</option>
-              <option value="life">Life</option>
-              <option value="matter">Matter</option>
-              <option value="mind">Mind</option>
-              <option value="prime">Prime</option>
-              <option value="space">Space</option>
-              <option value="spirit">Spirit</option>
-              <option value="time">Time</option>
-            </select>
-          </li>
-
-          <li class="filters__list-item">
-            <label for="degrees">Degree</label>
-            <select name="degrees" id="degrees">
-              <option value="all" selected>All</option>
-              <option value="initiate">Initiate (•)</option>
-              <option value="apprentice">Apprentice (••)</option>
-              <option value="disciple">Disciple (•••)</option>
-              <option value="adept">Adept (••••)</option>
-              <option value="master">Master (•••••)</option>
-            </select>
-          </li>
-        </ul>
-      </section>
-
       <section class="spells">
         <ul class="spells__list"></ul>
       </section>
