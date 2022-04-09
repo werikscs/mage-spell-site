@@ -1,6 +1,7 @@
 :root{
   --color-primary: #00415e;
   --color-primary-50: #e0e8ef;
+  --color-secundary: #8098b2;
   --color-background-filters--closed: rgba(194, 194, 194, 0.5);
   --max-width: 1780px;
   --width-filter-768: 200px;
@@ -91,8 +92,19 @@ header{
   background-color: var(--color-primary-50);
 }
 
+.filters__list > *{
+  margin-bottom: 8px;
+}
+
 .favorite{
   cursor: pointer;
+  /* width: 100%; */
+  padding: 4px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--color-secundary);
 }
 
 .favorite:hover{
@@ -216,7 +228,7 @@ header{
   .filters__list{
     width: unset;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     max-width: none;
     padding: 0;
     background-color: transparent;

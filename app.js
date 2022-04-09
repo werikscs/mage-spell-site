@@ -78,8 +78,6 @@ function searchForSpell(spellList){
 
     if(isShowingFavoriteSpells){
 
-      console.log(favoriteArray)
-
       if(favoriteArray.includes(spellName)){
         const spellCard = createSpellCard(spell);
         ulSpells.appendChild(spellCard);
