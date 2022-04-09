@@ -124,7 +124,7 @@ export const createSpellCard = (spellObj) => {
   return li;
 }
 
-export function isFavorite(spellName){
+function isFavorite(spellName){
 
   const arrayNames = localStorage.getItem('spellsNames') ?
     JSON.parse(localStorage.getItem('spellsNames')) : [];
