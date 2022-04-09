@@ -6,6 +6,7 @@ const ulSpells = document.querySelector('.spells__list');
 let searchedArcana = 'all';
 let searchedDegree = 'all';
 let favoriteArray = [];
+let isShowingFavoriteSpells = false;
 // console.log(ulSpells);
 
 // const searchedText = document.querySelector('#searchInput');
@@ -75,7 +76,9 @@ function searchForSpell(spellList){
 
     const spellName = spell.identity.name;
 
-    if(favoriteArray.length){
+    if(isShowingFavoriteSpells){
+
+      console.log(favoriteArray)
 
       if(favoriteArray.includes(spellName)){
         const spellCard = createSpellCard(spell);
@@ -89,8 +92,6 @@ function searchForSpell(spellList){
 
     }
 
-    
-
   });
 
 }
@@ -101,12 +102,14 @@ searchForArcana();
 const selectArcanas = document.querySelector('#arcanas');
 selectArcanas.addEventListener('change', (e) => {
   searchedArcana = e.target.value;
+  isShowingFavoriteSpells = false;
   searchForArcana();
 });
 
 const selectDegrees = document.querySelector('#degrees');
 selectDegrees.addEventListener('change', (e) => {
   searchedDegree = e.target.value;
+  isShowingFavoriteSpells = false;
   searchForArcana();
 });
 
@@ -116,9 +119,9 @@ favoriteButton.addEventListener('click', () => {
   favoriteArray = localStorage.getItem('spellsNames') ?
     JSON.parse(localStorage.getItem('spellsNames')) : [];
 
-  if(favoriteArray.length){
-    searchForArcana();
-  }
+  isShowingFavoriteSpells = true;
+  searchForArcana();
+
 
 });
 
@@ -167,7 +170,13 @@ function handleLocalStorage(action, spellName){
 
     arrayNames.splice(indexToRemove, 1);
 
+    favoriteArray = arrayNames;
+
     localStorage.setItem('spellsNames', JSON.stringify(arrayNames));
+
+    if(isShowingFavoriteSpells){
+      searchForArcana();
+    }
   }
 
 }
