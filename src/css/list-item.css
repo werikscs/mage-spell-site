@@ -2,6 +2,8 @@
   --color-spell-name: #004e6e;
   --color-spell-body: #ffffff;
   --padding-spell-body: 0 8px;
+  /* --font-spell-body: 'Nanum Myeongjo', serif;; */
+  /* --font-weigth-body: 800; */
 }
 
 .spells__list__item{
@@ -23,11 +25,12 @@
 }
 
 .spell__name{
+  /* font-family: var(--font-spell-body); */
   margin-left: 10px;
   margin-right: 25px;
   font-size: var(--font-size-name);
   color: var(--color-spell-name);
-  font-weight: 600;
+  font-weight: 400;
   padding: 8px 0;
   border-radius: 2px 2px 0 0;
 }
@@ -36,12 +39,14 @@
   /* padding-left: 10px; */
   margin-top: -15px;
   font-size: var(--font-size-author);
-  font-weight: 400;
+  font-weight: var(--font-weigth-body);
   padding-left: 18px;
 }
 
 .spell__author .author__title{
   font-size: var(--font-size-author);
+  font-family: var(--font-spell-body);
+  font-weight: var(--font-weigth-body);
 }
 
 .spell__info{
@@ -49,6 +54,8 @@
   flex-direction: column;
   padding-left: 18px;
   gap: 4px;
+  font-family: var(--font-spell-body);
+  font-weight: var(--font-weigth-body);
 }
 
 .spell__description{
@@ -56,6 +63,8 @@
   flex-direction: column;
   gap: 8px;
   padding: var(--padding-spell-body);
+  font-family: var(--font-spell-body);
+  font-weight: var(--font-weigth-body);
 }
 
 .spell__description:last-child{
@@ -65,16 +74,19 @@
 .spell__description .others{
   text-indent: 10px;
   font-size: var(--font-size);
+  font-weight: var(--font-weigth-body);
 }
 
 .spell__description .others__title{
   font-size: var(--font-size);
-  font-weight: bold;
+  font-weight: var(--font-weigth-body);
 }
 
 .description{
   text-indent: 10px;
   text-align: justify;
+  font-family: var(--font-spell-body);
+  font-weight: var(--font-weigth-body);
 }
 
 @media screen and (min-width: 768px) {
