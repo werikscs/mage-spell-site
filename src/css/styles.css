@@ -98,7 +98,6 @@ header{
 
 .favorite{
   cursor: pointer;
-  /* width: 100%; */
   padding: 4px;
   text-align: center;
   border-radius: 4px;
@@ -189,7 +188,7 @@ header{
 
   .header__internal{
     justify-content: space-between;
-    padding: 0 16px;
+    padding: 0 24px;
   }
 
   .header__title{
@@ -204,13 +203,13 @@ header{
   .main{
     display: flex;
     margin: 0 auto;
-    /* max-width: var(--max-width); */
+    max-width: var(--max-width);
   }
 
   .spells{
     margin-top: 75px;
     position: static;
-    padding: 24px 16px;
+    padding: 24px;
   }
 
   .spells__list{
@@ -284,9 +283,8 @@ header{
   }
 
   .spells{
-    /* width: calc(100% - var(--width-filter-1024)); */
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: overlay;
   }
 
   .spells__list{
@@ -294,31 +292,15 @@ header{
     justify-content: flex-start;
     flex-flow: row wrap;
     margin: 0;
-    gap: 32px;
+    gap: 24px;
 
   }
 
   .spells__list__item{
     align-self: stretch;
     flex: 1 1 45%;
+    max-width: 49%;
   }
-  
-  /* .filters{
-    order: 2;
-    position: sticky;
-    margin-top: 75px;
-    width: var(--width-filter-1024);
-    height: 100%;
-  }
-
-  .filters__list{
-    width: 100%;
-    max-width: var(--width-filter-1024);
-    display: unset;
-    right: 0;
-    background-color: var(--color-primary-50);
-    transition: var(--time-transaction);
-  } */
 
 }
 
@@ -326,6 +308,7 @@ header{
   
   .spells__list__item{
     flex: 1 1 30%;
+    max-width: 32.4%;
   }
   
 }
