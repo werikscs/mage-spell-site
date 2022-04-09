@@ -2262,7 +2262,7 @@ export const dbSpells = [
               "+1 Reach":" The planes of force shielding you from the harmful effects of your own fire become more refined, protecting your worn armor and other equipment."
             },
             {
-              "+1 Reach":" You can \"flare\" your fiery nimbus into a column of superheated air, with explosive results. As an instant action, you can attack at short range with Dexterity + Athletics, using a weapon modifier equal to Potency. Opponents apply Defense, but the \"spread\" of your attack is difficult to avoid, not unlike a shotgun; your roll benefits from 9-Again. Alternatively, you can use the explosive burst for propulsion, making a Strength + Athletics roll to jump and multiplying your successes by Potency."
+              "+1 Reach":" You can 'flare' your fiery nimbus into a column of superheated air, with explosive results. As an instant action, you can attack at short range with Dexterity + Athletics, using a weapon modifier equal to Potency. Opponents apply Defense, but the 'spread' of your attack is difficult to avoid, not unlike a shotgun; your roll benefits from 9-Again. Alternatively, you can use the explosive burst for propulsion, making a Strength + Athletics roll to jump and multiplying your successes by Potency."
             }
           ]
         },
@@ -2396,7 +2396,7 @@ export const dbSpells = [
           },
           "description":[
             "Within the area of the spell the mage destroys all manifestations of electromagnetic forces that are commonly used in technology. Electric currents, wireless transmissions, lasers, etc.",
-            "This spell is used in a process called \"rewildening\" by a Free Council anarcho-primitivist philosophy that supposes that technology is purely an instrument of the Lie and that the future Atlantis will be ruled by magic utterly without technology."
+            "This spell is used in a process called 'rewildening' by a Free Council anarcho-primitivist philosophy that supposes that technology is purely an instrument of the Lie and that the future Atlantis will be ruled by magic utterly without technology."
           ],
           "others":[
             {
@@ -2716,14 +2716,14 @@ export const dbSpells = [
             "suggested rote skills":" Medicine, Animal Ken, Survival"
           },
           "description":[
-            "Regrowing lost limbs and organs is moderately difficult with Magic but with the advent of modern transplantology it wasn't long till Mages found an easier way. This spell allows to transplant a part of a body from one person to another. The magic used in the spell means that unlike mundane transplants you don't have to worry about rejection, immunosuppressants or rehab, the \"new\" part is fully functional from the get go. Parts must be taken from still living subjects."
+            "Regrowing lost limbs and organs is moderately difficult with Magic but with the advent of modern transplantology it wasn't long till Mages found an easier way. This spell allows to transplant a part of a body from one person to another. The magic used in the spell means that unlike mundane transplants you don't have to worry about rejection, immunosuppressants or rehab, the 'new' part is fully functional from the get go. Parts must be taken from still living subjects."
           ],
           "others":[
             {
               "+ 1 Reach":" Parts can be taken from a recently dead person."
             },
             {
-              "+ 2 Reach":" Parts might come from a different species, for instance the Mage can implant a predator’s claw in place of the subject's hand. For specific effects this might grant, check the spell \"Transform Life\" (MtAw Core pg.150)."
+              "+ 2 Reach":" Parts might come from a different species, for instance the Mage can implant a predator’s claw in place of the subject's hand. For specific effects this might grant, check the spell 'Transform Life' (MtAw Core pg.150)."
             }
           ]
         },
@@ -2759,7 +2759,7 @@ export const dbSpells = [
           "id":124,
           "identity":{
             "name":"Addictive Fluids (Life •••)",
-            "author":"by Flinty, in “Flintys Homebrew Hub 2e” "
+            "author":"by Flinty, in 'Flintys Homebrew Hub 2e' "
           },
           "properties":{
             "practice":" Weaving",
@@ -2825,7 +2825,7 @@ export const dbSpells = [
             "primary factor":" Duration"
           },
           "description":[
-            "Gain Potency as temporary health for the duration of the spell. Not the same as granting attribute dots or anything drastic, just increasing a trait for a while that might buy you some precious time between you and the great beyond. Likely requires 1 reach and 1 mana to even use since your health is by nature at its \"cap\"."
+            "Gain Potency as temporary health for the duration of the spell. Not the same as granting attribute dots or anything drastic, just increasing a trait for a while that might buy you some precious time between you and the great beyond. Likely requires 1 reach and 1 mana to even use since your health is by nature at its 'cap'."
           ]
         },
         {
@@ -2993,7 +2993,7 @@ export const dbSpells = [
             "suggested rote skills":" Brawl, Intimidation, Persuasion"
           },
           "description":[
-            "The mage patterns the blood of a living subject into vampiric Vitae and draws it from the victim.The Vitae drawn is usually in the form of blood oozing from wounds, but can be a more exotic substance, depending on the method the mage uses to \"feed\" on the subject. This spell generates one Vitae per Potency and deals 1 Lethal damage per Potency to the subject. The Vitae created is treated as if it came from the subject.",
+            "The mage patterns the blood of a living subject into vampiric Vitae and draws it from the victim.The Vitae drawn is usually in the form of blood oozing from wounds, but can be a more exotic substance, depending on the method the mage uses to 'feed' on the subject. This spell generates one Vitae per Potency and deals 1 Lethal damage per Potency to the subject. The Vitae created is treated as if it came from the subject.",
             "The Vitae remains supernatural until the Duration of the spell expires, at which point it turns back into regular substance, unless it has been consumed. The use of this spell is an affront to the vampiric Curse, and damns the mage: the mage takes 1 resistant Lethal damage per Potency of the spell."
           ],
           "others":[
@@ -3010,7 +3010,7 @@ export const dbSpells = [
               "Add Death, Mind, or Spirit ••••":" The Mage may draw from ghosts (Death), goetia (mind), or spirits (Spirit)."
             },
             {
-              "Add Prime ••••":" The Mage can convert the Vitae into tass in a form of her choosing. The tass functions both as Vitae and Mana, and if ingestible, can be consumed by Vampires. The tass created has the resonance keyword of \"vampirism”."
+              "Add Prime ••••":" The Mage can convert the Vitae into tass in a form of her choosing. The tass functions both as Vitae and Mana, and if ingestible, can be consumed by Vampires. The tass created has the resonance keyword of 'vampirism'."
             }
           ]
         },
@@ -3098,7 +3098,7 @@ export const dbSpells = [
               "+1 Reach and 1 Mana":" The mage may bypass the debt of the Curse by substituting Mana for suffering. The damage inflicted to the mage is non-Resistant."
             },
             {
-              "Add Prime •••••":" The Mage can create the Vitae as tass in a form of her choosing. The tass functions both as Vitae and Mana, and if ingestible, can be consumed by Vampires. The tass created has the resonance keyword of \"vampirism.\""
+              "Add Prime •••••":" The Mage can create the Vitae as tass in a form of her choosing. The tass functions both as Vitae and Mana, and if ingestible, can be consumed by Vampires. The tass created has the resonance keyword of 'vampirism.'"
             }
           ]
         },
@@ -3153,7 +3153,1475 @@ export const dbSpells = [
   },
   {
     "matter":{
-      
+      "initiate":[
+        {
+          "id":141,
+          "identity":{
+            "name":"Sense Pressure (Matter •)",
+            "author":"by Dark Archon"
+          },
+          "properties":{
+            "practice":" Knowing",
+            "primary factor":" Duration",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "This spell is different from others in regard that it isn't cast on an Area, but on the Structure of the target object; the mage can feel pressure on structure material and detect location of creatures who move inside of it."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage knows Size and approximate mass of being who is entering the area."
+            }
+          ]
+        },
+        {
+          "id":142,
+          "identity":{
+            "name":"Steel Windows (Matter •)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Unveiling",
+            "primary factor":" Duration",
+            "suggested rote skills":" Science, Subterfuge, Larceny"
+          },
+          "description":[
+            "Even the thickest wall of steel cannot hinder the sight of an alchemist. For the spell's Duration, its subject may see through a solid object within his range of vision as if it were transparent by focusing his sight upon it. If the object is multi-layered, like a matryoshka doll or a building with many walls and rooms, the subject can only see through the outermost layer on his end. Trying to see through layers of particularly intricate objects, as some machines are, may require a Wits + relevant Skill roll. As the spell does not increase its subject's visual field, sufficiently large obstacles such as a mountain may only appear transparent up to a certain point."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The subject may see through multiple layers, each layer beyond the first requiring a turn of concentration. This still does not allow her to see entirely past huge obstacles beyond his normal sight."
+            },
+            {
+              "+1 Reach and add Life •":" The spell can be used to see through living creatures, revealing their insides. He may adjust how much he can see through, choosing to examine someone's muscles or analyze her organs. Understanding what he is seeing may require an Intelligence + Medicine roll, while searching for specific organs or tissues may require a Wits + Medicine roll."
+            }
+          ]
+        }
+      ],
+      "apprentice":[
+        {
+          "id":143,
+          "identity":{
+            "name":"Bath Time (Matter ••)",
+            "author":"by LadyLens"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "suggested rote skills":" Medicine, Occult, Survival"
+          },
+          "description":[
+            "Exactly what it says on the tin. This spell forces all dirt, grime, etc. on the subject's body to fall away. The spell makes no attempt to distinguish, for example, makeup from dried mud: if it's not alive, it goes away. Note that hair and skin are part of a living being's Pattern, and thus unaffected. It is recommended the subject be unclad unless a need to visit a laundry should also be desirable. The target is now as clean as if she had just taken a very thorough shower and brushed her teeth completely. Larger-than-human targets require increased Size. The resulting clean state lasts as long as it normally would."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The spell can be used to selectively remove or not remove particular things."
+            }
+          ]
+        },
+        {
+          "id":144,
+          "identity":{
+            "name":"Clothes Make the Man (Matter ••)",
+            "author":"by HerbertIsBestBert"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "withstand":" Composure",
+            "suggested rote skills":" Crafts, Stealth, Subterfuge"
+          },
+          "description":[
+            "All tools carry within them the symbols of their purpose, and all clothing carries with it the symbolic purpose of expressing a certain persona. By drawing upon that symbology and bringing it to the forefront, the Mage can let their clothing speak for them. So long as the spell’s Potency exceeds the Composure of any witness, any wearer of the subject article/suit of clothing cannot be identified by any others in a persona that does not naturally accommodate the subject article/suit.",
+            "In such a way, while a person in a police officer’s uniform may act completely out of character for a police officer, any witnesses who do not Withstand the spell will merely see the subject as being horribly unprofessional, rather than being duplicitous about his identity. This is not flawless however, as symbolism can be interpreted in different ways. Where one law-abiding citizen might see a police officer as a symbol of benevolent authority, another might see them as a corrupt pillar of a tyrannical organization. In addition, at its base, this does not provide any benefit to social interaction beyond that which would be provided by acknowledgement of the individual’s identity."
+          ],
+          "others":[
+            {
+              "+1 Reach":" This spell can accommodate for ‘imperfections’ in the appearance of a suit of clothing. The dirty, unwashed nature of a subject’s suit may be disregarded, or the ‘fake’ police uniform of a kissogram or entertainer might be looked past by any witness who cannot Withstand the spell's Potency."
+            },
+            {
+              "+1 Reach":" When undertaking a social action against individuals who have not seen past the symbology of the subject’s clothing, the subject gains a bonus to all social tests in keeping with that symbolism equal to the spell’s Potency (based on how much it exceeds their Composure)."
+            },
+            {
+              "+2 Reach":" When casting the spell, the caster may specify a single aspect of the subject’s symbolism to enhance above all others. In this way, rather than being seen as an authority figure, or as a suspicious entity, the wearer of the classic 90s black suit and shades combo might be ignored as merely another faceless drone."
+            }
+          ]
+        },
+        {
+          "id":145,
+          "identity":{
+            "name":"Cool Water (Matter ••)",
+            "author":"by Lady Lens"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "suggested rote skills":" Academics, Science, Survival"
+          },
+          "description":[
+            "Water is everywhere, often in places one would not expect. This spell draws water from the very air, condensing vapor into a usable liquid. Each point of Potency yields enough water for one person for one day, assuming it's kept in a suitable container. This effect is Lasting."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage can draw water from the extremely dry air of cold deserts, such as glaciers and the polar regions. Contrary to popular belief, hot desert air typically holds a very great deal of water."
+            }
+          ]
+        },
+        {
+          "id":146,
+          "identity":{
+            "name":"Copying (Matter ••)",
+            "author":"by wyrdhamster"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "cost":" 1 Mana",
+            "withstand":" Durability of original item",
+            "suggested rote skills":" Crafts, Expression, Occult"
+          },
+          "description":[
+            "By means of this spell, the mage can copy the item he is seeing with materials that are suitable to its composition. Many Mysterium apprentices make copies of precious books from just stashes of ink and paper by this spell.",
+            "When the spell’s Duration expires, the original items return to their original form."
+          ],
+          "others":[
+            {
+              "+1 Reach":" For one point of Mana, the spell’s Duration is Lasting."
+            },
+            {
+              "+1 Reach":" For copying complex mechanisms."
+            },
+            {
+              "Add Prime •":" Mage can copy also any Rote found in the original Grimoire, like with ‘Scribe Grimoire’ Prime • spell."
+            }
+          ]
+        },
+        {
+          "id":147,
+          "identity":{
+            "name":"Grease or Glue (Matter ••)"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Scale",
+            "suggested rote skills":" Crafts, Brawl, Survival"
+          },
+          "description":[
+            "The easy way to turn the tide of physical combat and make those damn wheels spin, those spells changes the properties of matter it cast upon, causing the following Environmental Tilts:",
+            "Grease creates Ice Tilt in the area it's cast upon.",
+            "Glue creates Glue Tilt in the Area it’s cast upon: -4 to Speed, Dramatic Failure causes Immobilized Condition."
+          ]
+        },
+        {
+          "id":148,
+          "identity":{
+            "name":"Defy Artifice (Matter ••)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Shielding",
+            "primary factor":" Potency",
+            "suggested rote skills":" Brawl, Survival, Athletics"
+          },
+          "description":[
+            "All worked Matter can change back to dust, and humanity's beloved tools are no exception. Bullets are crunched into scrap metal, swords fail to penetrate skin, and even random non-weapon objects lose their strength. The subject is immune to any bashing damage from man-made objects, while downgrading lethal damage equal to Potency to bashing. Aggravated damage is unaffected.",
+            "Objects that have not been worked by human hands, such as a normal rock or a hunting knife forged by a werewolf, bypass the protection. Barehanded assault is also an option, as are natural materials and substances wielded by a human."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The spell extends to natural objects that are used by a human as a weapon."
+            },
+            {
+              "+2 Reach":" The subject is immune to both bashing and lethal damage from artificial objects, and downgrades aggravated damage equal to Potency to lethal."
+            }
+          ]
+        }
+      ],
+      "disciple":[
+        {
+          "id":149,
+          "identity":{
+            "name":"Alter Flammability (Matter •••)",
+            "author":"by Menace"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Potency",
+            "suggested rote skills":" Survival, Larceny, Firearms"
+          },
+          "description":[
+            "The subject can be made flammable or non-flammable. A subject made flammable will be as easy to light on fire as dry wood."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The subject can be made extremely flammable or even explosive."
+            }
+          ]
+        },
+        {
+          "id":150,
+          "identity":{
+            "name":"Brew Potion (Matter •••)",
+            "author":"by Magic Swordsman"
+          },
+          "properties":{
+            "practice":" Perfecting",
+            "primary factor":" Duration",
+            "suggested rote skills":" Crafts, Occult, Survival"
+          },
+          "description":[
+            "Magical potions and unguents are widely recognized as part of the wizard’s trade. This spell prepares a material compound to hold a supernal charge. A mage may then cast another spell into the potion, specifically shaping their Imago and spending a point of Mana. The potion may contain up to its Potency in spells, but using the compound triggers all of them. While within the potion, a spell counts against the caster’s spell control, but its Duration is held.",
+            "Potions come with certain limitations. Whomever imbibes the potion becomes the subject of its spells, although a cream or oil might be spread or splattered. If Brew Potion’s Duration runs out while it still contains spells, the held spells are lost and the potion visibly spoils.",
+            "Usually this spell is cast on a liquid that resonates with the spell effect, but it could also be cast on a piece of fruit to be eaten, a powder to be inhaled, a breakable object to be tossed like a grenade, etc. 'Ingredients' act as Sacrament Yantras."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage may add a Key to the activation of the potion. Perhaps it will only work once a certain reagent is mixed in, or it only has an effect on a certain person."
+            },
+            {
+              "+1 Reach":" The potion’s ingredients lose any effect they may have had on an imbiber; so an Acceleration potion of quicksilver won’t inflict mercury poisoning."
+            },
+            {
+              "+1 Reach":" The potion may contain multiple doses. If the same spell is cast into it multiple times, each adds an additional use to the potion."
+            }
+          ]
+        },
+        {
+          "id":151,
+          "identity":{
+            "name":"Close Enough (Matter •••)",
+            "author":"by Justin Sane"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Duration",
+            "suggested rote skills":" Crafts, Occult, Science"
+          },
+          "description":[
+            "This spell transforms one substance into another, as long as both are conceptually related. A glass of water can be turned into wine, lead can be turned into gold, and so on."
+          ]
+        },
+        {
+          "id":152,
+          "identity":{
+            "name":"Devouring the Fallen (Matter •••)",
+            "author":"by Aeryes"
+          },
+          "properties":{
+            "practice":" Fraying",
+            "primary factor":" Potency",
+            "withstand":" Durability",
+            "suggested rote skills":" Craft, Expression, Science"
+          },
+          "description":[
+            "The mage may pull energy from his target's decay into himself. The target must have at least one less point of Structure than it would when perfectly preserved or properly repaired. For each level of Potency, he may Scour the target's Pattern for one point of Mana, decreasing Structure by one in the process, causing damage through decay. Using this spell counts towards the limit of times per day a mage can gain Mana through Scouring."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage may affect a target that is fully preserved and/or in perfect shape instead of one that is damaged."
+            },
+            {
+              "+1 Reach":" The spell does not count toward the limit of times per day a mage can gain Mana through Scouring."
+            }
+          ]
+        },
+        {
+          "id":153,
+          "identity":{
+            "name":"Form Follows Function (Matter •••)",
+            "author":"by Frishman"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Duration",
+            "suggested rote skills":" Crafts, Expression, Persuasion"
+          },
+          "description":[
+            "The Mage transcribes a Supernal blueprint onto a collection of discrete but homogenous pieces, forcing them to take that shape and its associated function for a time. The willworker could use this spell to draw a sword from the sand, a bottle from broken glass, a shield from smoke or any other simple item with no moving parts from disparate pieces of the same material. The only limitation is that he needs to have enough of the material to create the item within the Scale of the spell, and thus the Scale may need to be enhanced in order to create items out of air or smoke. If the item created is a weapon, it gains a weapon bonus of 2; if armor, an armor rating of 2; and if another type of item an equipment bonus of +2."
+          ],
+          "others":[
+            {
+              "+1 Reach":" the Mage can use this spell to create complex items, ones with a number of moving parts equal to the spell's Potency. A revolver, for example, could be created using a spell of Potency 3 (though you would have to provide your own ammunition)."
+            }
+          ]
+        },
+        {
+          "id":154,
+          "identity":{
+            "name":"Freezing-point Depression (Matter •••)",
+            "author":"by BeyondTheGrave"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Duration",
+            "suggested rote skills":" Science, Survival, Persuasion"
+          },
+          "description":[
+            "Lower a material's freezing point. This can be used to melt ice and snow, removing the Ice Tilt and reducing the Blizzard Tilt to an Extreme Cold and/or Heavy Winds Tilts."
+          ]
+        },
+        {
+          "id":155,
+          "identity":{
+            "name":"Knight of the Willow Branch (Matter •••)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Duration",
+            "suggested rote skills":" Weaponry, Brawl, Survival"
+          },
+          "description":[
+            "The alchemist unlocks the hidden potential of violence hidden within everyday objects. When the spell's subject is used as an improvised weapon by the caster, she does not suffer the -1 penalty when attacking, and the weapon does not take damage upon successful attacks. Also, she subtracts Potency from the object's Size for the purpose of determining its Initiative penalty and Strength requirement."
+          ],
+          "others":[
+            {
+              "+1 Reach":" Potency is added to the improvised weapon's damage rating."
+            },
+            {
+              "Add Prime •••":" Attacks made with the weapon are considered supernatural, for creatures vulnerable to such distinctions."
+            }
+          ]
+        },
+        {
+          "id":156,
+          "identity":{
+            "name":"Leaden Feathers (Matter •••)",
+            "author":"by Menace"
+          },
+          "properties":{
+            "practice":" Perfecting/Fraying",
+            "primary factor":" Potency",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "The Mage alters the weight of an object, each point of potency either doubling or halving the subject's weight."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The object becomes lighter than air causing it to float up."
+            }
+          ]
+        },
+        {
+          "id":157,
+          "identity":{
+            "name":"Printing (Matter •••)",
+            "author":"by wyrdhamster"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Potency",
+            "cost":" 1 Mana",
+            "withstand":" Durability of original item"
+          },
+          "description":[
+            "Like in ‘Copying’ spell, only any solid material will be good for copy.",
+            "Reach and Prime options are the same."
+          ]
+        },
+        {
+          "id":158,
+          "identity":{
+            "name":"Transparency (Matter •••)",
+            "author":"by Dark Archon"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Duration",
+            "suggested rote skills":" Crafts, Stealth, Subterfuge"
+          },
+          "description":[
+            "One of the best ways to hide something is to make it invisible. One possible way to do this is to manipulate Forces, forcing light to go through objects; the other possible way is to make everybody unsee it with Mind. This spell uses Matter for that effect - it simply makes the matter of the object completely transparent. This does not change mass, density or other properties of an object, though if it has functions which depend on the ability to block light (solar panels, for example), then it can't function anymore. You can wear armor and weapons in this way, and nobody will notice unless you go through a scanner or be searched physically."
+          ]
+        }
+      ],
+      "adept":[
+        {
+          "id":159,
+          "identity":{
+            "name":"Colossus (Matter ••••, Life ••••)",
+            "author":"by AmusedByIrony"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Duration",
+            "suggested rote skills":" Athletics, Crafts, Medicine"
+          },
+          "description":[
+            "The mage transmutes entire portions of his anatomy into living wood, stone, or metal. The mage's skin, muscle, and bone become a material with Durability equal to Potency, to a maximum of 5 (equivalent to multiple reinforced layers of steel). This Durability is added to the mage's Health and Armor; per the normal rules for Objects, this additional Armor does not apply against aggravated damage. The mage's unarmed attacks are now lethal weapons with damage rating [Durability]. Unless an attack deals aggravated damage, the mage is immune to the Arm Wrack and Leg Wrack tilts."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The transmutation turns inward, magic replacing cardiovascular, digestive, nervous, and respiratory functions. For the Duration of the spell, the mage no longer needs to breathe or eat, does not suffer wound penalties, and is immune to the Bleeding, Drugged, Poisoned, Sick, and Stunned Tilts."
+            },
+            {
+              "+1 Reach":" The mage's metal flesh can mimic the alchemical properties of a rare or precious material, such as silver."
+            }
+          ]
+        },
+        {
+          "id":160,
+          "identity":{
+            "name":"Dress Code (Matter ••••, Spirit •)",
+            "author":"by galivet"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Duration",
+            "suggested rote skills":" Crafts, Survival, Socialize"
+          },
+          "description":[
+            "This spell gauges the Resonance of the subject's current location and/or social context and modifies the subject's garb to be appropriate for that setting -- even if the mage (or subject) doesn't have a clue what the appropriate garb would be. Add Potency to the mage's social rolls while in the setting. For determining First Impression as part of a social maneuver, consider the subject to have met the criteria for a Good impression."
+          ]
+        },
+        {
+          "id":161,
+          "identity":{
+            "name":"Duplicate (Matter ••••)",
+            "author":"by wyrdhamster"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Potency",
+            "cost":" 1 Mana",
+            "withstand":" Durability of original item",
+            "suggested rote skills":" Crafts, Expression, Occult"
+          },
+          "description":[
+            "Like in ‘Copying’ spell, only the mage can conjure copy out of thin air. In reality, he is making it out of air. To any witness, the item just comes in two exactly the same things, like a cell is dividing itself. Reach and Prime option are the same like in ‘Copying’ spell."
+          ]
+        },
+        {
+          "id":162,
+          "identity":{
+            "name":"Petrification (Matter ••••, Life ••••)"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Duration",
+            "withstand":" Stamina",
+            "suggested rote skills":" Intimidation, Subterfuge, Occult"
+          },
+          "description":[
+            "Calling on the legendary power of the Gorgons, the Mage turns flesh to stone with their terrible gaze. The target turns into a statue of themselves, with Structure and Durability as appropriate for a solid stone object of their size and composition (marble is very different from granite, for example).",
+            "Targets turned to stone are not dead, but they aren't 'alive' either; the target is rendered unconscious and unaware for the Duration of the spell, during which they do not age or hunger. If the statue is damaged in any way, the target receives comparative wounds when turned back to flesh, but is otherwise unaware of any harm done to them. If the damage is repaired before this time, no harm occurs. If sufficient damage is dealt to reduce the statue to Structure 0, the target dies, and reconstructing the statue does nothing to restore them.",
+            "Petrified targets, despite their quiescent state, can be communicated with. Mind spells that allow the reading of minds or telepathic contact can interact with the victim as they would any mortal. The target experiences this as a panicked, dream-like state, though sufficient communications in this manner may allow them to become aware of their situation. If they have any magical abilities, such powers are available to them in these moments."
+          ]
+        },
+        {
+          "id":163,
+          "identity":{
+            "name":"Pykrete (Matter ••••, Death •••)",
+            "author":"by BeyondTheGrave"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Duration",
+            "suggested rote skills":" Crafts, Science, Survival"
+          },
+          "description":[
+            "During World War II, Geoffrey Pyke proposed pykrete as a candidate material for a supersized aircraft carrier for the British Royal Navy. Pykrete features unusual properties, like only being usable in cold temperatures, having a relatively slow melting rate due to its low thermal conductivity, as well as being equal in strength and toughness to concrete.",
+            "With this spell the mage patterns matter into pykrete. Death is used to create it with the cold temperatures required, but without a cold environment or further cooling, it will heat up and start to sag. Pykrete has a Durability of 3 and a Structure of 9."
+          ],
+          "others":[
+            {
+              "Add Matter 5":" Create the material out of nothing."
+            },
+            {
+              "Add Death 5":" The material maintains its own cold temperature."
+            }
+          ]
+        },
+        {
+          "id":164,
+          "identity":{
+            "name":"Terminator (Matter ••••, Time ••)",
+            "author":"by arthexis"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Duration",
+            "cost":" +1 Reach and 1 Mana (for Temporal Sympathy)",
+            "suggested rote skills":" Science, Computer, Medicine"
+          },
+          "description":[
+            "The mage builds a servant (see the Golem spell) using the materials at a location or subject substance or object in the past. Use the rules of Temporal Sympathy to determine how far back in Time the Golem can be created. The servant can perform changes to the past while the spell is active. When the spell's Duration elapses, the servant crumbles and any changes it has performed become Lasting. The servant can only perform simple tasks related to its chosen field."
+          ],
+          "others":[
+            {
+              "Add Mind •••••":" The mage can provide the servant with a full mind (see Psychic Genesis) to help it with its tasks and allow it to better improvise. This can be a copy of the mage's own mind."
+            },
+            {
+              "Add Life ••":" The servant can be disguised as a living being."
+            },
+            {
+              "+2 Reach":" The servant can be made of liquid metal."
+            }
+          ]
+        }
+      ],
+      "master":[
+        {
+          "id":165,
+          "identity":{
+            "name":"Create Food (Matter •••••)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Making",
+            "primary factor":" Potency",
+            "cost":" 1 or more Mana (variable)",
+            "suggested rote skills":" Survival, Persuasion, Medicine"
+          },
+          "description":[
+            "While the alchemist is far from creating life from raw Matter, she can learn to sustain it. The mage targets a portion of food, and the spell creates a number of copies of it equal to Potency. She can scale the spell to as she needs it - the spell may duplicate separate apples in a bag, or the entire bag of apples, but the total volume of resultant food including the original must fit within the spell's Scale. All the created food is nutritionally identical to the original, and sustains living organisms normally."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage may create food from nothing. He is limited to creating food that he remembers having eaten in the past."
+            },
+            {
+              "+1 Reach and add Mind ••":" The mage may create non-existent food out of her imagination. Trying to create foods of particularly intricate recipes and presentation may require a Dexterity + Crafts roll, and modifying their nutritional qualities might call for a Intelligence + Medicine roll."
+            },
+            {
+              "Add Prime •••••":" The mage may infuse the created foods with Mana, making them into tass."
+            },
+            {
+              "Add Life ••":" The created food is supernaturally filling, and invigorates the living body. Everyone who consumes them is considered to have received a full night's rest, and enjoys a doubled natural healing rate for a period of time equal to the spell's Duration."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "mind":{
+      "initiate":[
+        {
+          "id":166,
+          "identity":{
+            "name":"A Bug (Mind •)",
+            "author":"by Moinen"
+          },
+          "properties":{
+            "practice":" Knowing",
+            "primary factor":" Duration",
+            "withstand":" Resolve",
+            "suggested rote skills":" Survival, Persuasion, Medicine"
+          },
+          "description":[
+            "This spell nests itself on the subject's mind and leaks information in the real time. Pick a topic that this spell keeps eye on to get a descriptive output. It should be moderately precise - work life, commuting, sports competition, news. Whenever something that falls under this topic occurs the caster(or anyone that he chose at the time of casting) gets a description of the event.",
+            "Example: If the topic is 'commute' the caster gets '...at the corner, right behind the butcher shop he turns left and goes straight down the street to the town hall…'. It won't reveal that he met his girlfriend on the way since it’s not the topic. It might however tell that he stopped and asked someone for advice on how to get there. When you choose 'imago', it will describe the spell that she craft when she crafts it '...she burns the tiger-monster-thing and Brian with the winds of Aether…' or reveals the conversation she has with her mentor '...she asks how harmful for the soul is to kill with magic and the master says that it depends on…'. Descriptions should be a little vague, unless the caster specifies a narrowed topic with a Reach option below. ",
+            "ST should apply a penalty ranging from -1 to -3 when mage for example actively listens to 'soap operas' while trying to read a book on his own."
+          ],
+          "others":[
+            {
+              "+1 Reach":" Pick another topic. Can be taken multiple times."
+            },
+            {
+              "+1 Reach":" The topic may be more precise - 'spying' can now become 'spying on a member of the Black Lotus organization' but it will only work on situations where the target thinks the Black Lotus is involved."
+            },
+            {
+              "+1 Reach":" Even thoughts can betray the target giving away what he thinks at the moment about the topic. Now you know what the target will do before he does it, at the moment of its decision."
+            },
+            {
+              "+2 Reach":" As above but when making an opposed check, pertaining the topic, against the subject of the spell you may add potency as bonus equipment. It can’t go above 5. Example"
+            },
+            {
+              "+1 Reach":"The mage can tap in and out as an instant action. It’s a safety switch since the surveillance can be distracting at times."
+            },
+            {
+              "+2 Reach":" Mage can tap in and out as a reflexive action."
+            }
+          ]
+        },
+        {
+          "id":167,
+          "identity":{
+            "name":"Method Man (Mind •)",
+            "author":"by Altasaire"
+          },
+          "properties":{
+            "practice":" Compelling",
+            "primary factor":" Duration",
+            "suggested rote skills":" Investigation, Athletics, Socialize"
+          },
+          "description":[
+            "It is said that a wise man wins first, and only then enters the battle, while the fool first enters the battle and only then tries to win it. It is also said that no plan survives contact with the enemy. This spell tries to rectify the latter by bolstering the subject's ability to think on the fly, expanding his mental capacity to allow him to handle small minutiae on the fly, without cutting in the precious attention that is often sorely needed to handle more pressing tasks of the moment.",
+            "For the Duration of the spell, the subject could modify any Plan-type equipment he has as per gear modification rules, treating each significant part of the plan that needs to be changed as a separate 'feature' to be added."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The spell also speeds up the decision-making process considerably, allowing to make changes in the plans at the same time as performing another, separate instant or extended task."
+            },
+            {
+              "+2 Reach":" Perception of the subject is sharpened to a needle point, as the world around slows to a seeming crawl. He can create a whole new plan on the spot rather than modifying an existing one while the spell is in effect at the same time as performing another instant or extended task."
+            }
+          ]
+        },
+        {
+          "id":168,
+          "identity":{
+            "name":"Read Potential (Mind •)",
+            "author":"by Inodiv"
+          },
+          "properties":{
+            "practice":" Knowing",
+            "primary factor":" Potency",
+            "suggested rote skills":" Academics, Occult, Empathy"
+          },
+          "description":[
+            "By scrutinizing her subject, the caster can determine the subject’s current amount of unspent Experiences, expressed as their current potential, or the amount of personal growth they’ve recently seen."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage may also determine amounts of other forms of Experiences the subject possesses, such as the Arcane Experiences of fellow Mages or the Vitriol Experiences of Prometheans."
+            }
+          ]
+        },
+        {
+          "id":169,
+          "identity":{
+            "name":"Sense Thoughts (Mind •)",
+            "author":"by Dark Archon"
+          },
+          "properties":{
+            "practice":" Knowing",
+            "primary factor":" Duration",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "The spell listens to thoughts and emotions of being inside of an area, telling the mage of their location. This spell can be very taxing on the psyche of mage who cast it if location is happens to be in area with high human traffic."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage knows the amount of dots in Mental or Social attributes of person who is entering the area."
+            },
+            {
+              "+1 Reach":" The mage knows a specific amount of dots in one Mental or Social attribute of the person who is entering the area."
+            }
+          ]
+        },
+        {
+          "id":170,
+          "identity":{
+            "name":"Reveal Enigmas (Mind •)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Knowing",
+            "primary factor":" Duration",
+            "suggested rote skills":" Investigation, Science, Academics"
+          },
+          "description":[
+            "The psychonaut heightens her mental acuity in face of puzzles and mysteries, dissecting their patterns to discover the solution. Simple puzzles require no more than a glance to solve. In case of more complex mysteries represented by an Investigation effort (as per Chronicles of Darkness), this spell adds its Potency to a Clue's number of elements. Scale may be increased to target multiple Clues, which requires the mage to divide Potency between them. Such additional elements last only for the spell's Duration."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The spell grants inspective insight, allowing the mage to double-check established leads. The spell can be used to remove the Incomplete or Tainted tags from a Clue for a level of Potency, instead of providing extra elements."
+            },
+            {
+              "Add Forces •":" The mage can now solve 'puzzles' in the form of computer codes and digital ciphers."
+            }
+          ]
+        }
+      ],
+      "apprentice":[
+        {
+          "id":171,
+          "identity":{
+            "name":"Beast Master (Mind ••) ",
+            "author":"by Tessie"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "suggested rote skills":" Animal Ken, Empathy, Survival"
+          },
+          "description":[
+            "Gain a number of dots in an animal training fighting style (such as Falconry or K-9) equal to Potency for the Duration of this spell."
+          ],
+          "others":[
+            {
+              "+1 Reach":" Including an animal as a Subject of this spell circumvents the training period required to benefit from the Merit. If the Subjects do not share the Bonded Condition (or another fitting Condition such as Familiar) they both gain the Bonded Condition for the Duration of the spell."
+            }
+          ]
+        },
+        {
+          "id":172,
+          "identity":{
+            "name":"Dead Mind (Mind ••)",
+            "author":"by Dark Archon"
+          },
+          "properties":{
+            "practice":" Veiling",
+            "primary factor":" Potency",
+            "suggested rote skills":" Medicine, Stealth, Subterfuge"
+          },
+          "description":[
+            "Your thoughts freeze; your mind is still. You can act, but you don't think about it; you just act. This spell makes it much harder to read your thoughts, intentions or mental presence. Apply the spell’s Potency as a penalty to relevant Skill rolls (such as Empathy or Subterfuge) between the subjects. You may not reduce Skill rolls below their default - your penalty can only cancel bonuses from telepathy, ability to read emotions and so on."
+          ],
+          "others":[
+            {
+              "+1 Reach":" You may also apply the spell’s Potency as a bonus to Withstand any attempts to locate you with Mind magic."
+            },
+            {
+              "+1 Reach":" You may also apply the spell’s Potency as a bonus to Withstand any attempts to inflict Mental Condition or Tilt on you."
+            }
+          ]
+        },
+        {
+          "id":173,
+          "identity":{
+            "name":"Honed Will (Mind ••)",
+            "author":"by Caladriu"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "The mage grants the subject the 9-again quality on mundane dice rolls where the subject spends Willpower, up to a number of rolls equal to Potency during the spell's Duration."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The benefit becomes 8-again."
+            },
+            {
+              "+2 Reach":" The benefit extends to spellcasting rolls."
+            }
+          ]
+        },
+        {
+          "id":174,
+          "identity":{
+            "name":"The Inescapable Question (Mind ••)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "withstand":" Resolve",
+            "suggested rote skills":" Persuasion, Investigation, Computer"
+          },
+          "description":[
+            "Change begins by challenging assumptions, which in turn begins with a simple question. As the spell is cast, the mage asks her subject a question fitting the situation. Provided the subject can hear and understand her, the question takes root in his mind for the spell's Duration. Depending on context this replicates one of the Guilty, Shaken, or Spooked Conditions, but without implying the same degree of mental trauma. The Question itself can be delivered through telepathic methods, such as the 'Psychic Domination' or 'Telepathy' spells and similar effects."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage doesn't need to speak, not even telepathically. An action, a gesture, even a look instills aporia in his subject. This also allows him to deliver the Question with methods that normally transmit only emotions and images, such as the 'Emotional Urging' spell and similar effects."
+            },
+            {
+              "+1 Reach":" The spell instills the Obsession Condition instead."
+            },
+            {
+              "+1 Reach":" When the subject resolves the Condition imposed by the spell, depending on the method she immediately gains either the Inspired or Steadfast Condition."
+            }
+          ]
+        },
+        {
+          "id":175,
+          "identity":{
+            "name":"Just a Flesh Wound (Mind ••)",
+            "author":"by Shroudb"
+          },
+          "properties":{
+            "practice":" Veiling",
+            "primary factor":" Potency",
+            "withstand":" Composure",
+            "suggested rote skills":" Expression, Stealth, Subterfuge"
+          },
+          "description":[
+            "The target of this ability believes that his attacks have the opposite outcomes. Attacks that strike the target seem like they missed, attacks that missed seem like they hit. Enveloping all the senses, someone swinging, and hitting with a sword p.e., wouldn't feel the impact of the blow nor hear the cry of his target, but instead would 'see' the defender dodging out of the way. Similarly, someone throwing a fireball, and missing, would instead see, and smell, his opponent being charred to 'really wounded, but not quite dead' state. The actual attack is resolved normally despite the perception of it (so you swing a sword and hit, you think you missed, the opponent seems healthy, but in reality he does take, and note the damage and/or associated penalties).",
+            "This spell doesn't fool the one actually getting attacked (the target of the attack still knows, and feels, the full burn of the attack). This spell is not limited to 'attack roll' actions, but instead is applied to everything the 'attacker' thinks is an attack (so even social slander and etc, or sensory spells)."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The caster can now reflexively decide if an attack looks like a miss or a hit."
+            },
+            {
+              "+1 Reach":" This spell fools even the one getting attacked (The ST should keep his Health total a secret)."
+            }
+          ]
+        },
+        {
+          "id":176,
+          "identity":{
+            "name":"Stoke the Flames (Mind ••)",
+            "author":"by Deionscribe"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Duration",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "The Mage can urge a given subject towards accomplishing a particular goal of his choosing, This grants him the Inspired Condition for the Duration of the spell, or until he chooses to resolve it earlier."
+          ],
+          "others":[
+            {
+              "+2 Reach and 1 Mana":" By spending a point of Mana, the Mage allows a subject to avail of the Condition a number of times equal to the spell's Potency before it's resolved."
+            }
+          ]
+        },
+        {
+          "id":177,
+          "identity":{
+            "name":"Rashomon Effect (Mind ••)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "withstand":" Composure",
+            "suggested rote skills":" Subterfuge, Investigation, Persuasion"
+          },
+          "description":[
+            "The human mind and memories are not infallible as many believe, and are subject to distorting events in their own perspectives and self-interests. Those who witness the subject within the spell's Duration will remember a highly subjective version of it, giving different accounts to anyone who should come asking. Using supernatural means of observation or memory-reading provokes a Clash of Wills. Mage Sight always reveals the truth without a Clash.",
+            "While this spell does not befuddle supernatural events caused by or transpired around the subject, most people already have flimsy memories regarding such matters."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The spell extends to supernatural witnesses. One may remember the man across the street spontaneously bursting into flame, while another may remember the same man attacked with a molotov cocktail."
+            },
+            {
+              "+1 Reach":" The spell provokes a Clash of Wills against Mage Sight, and on success befuddles even the Awakened senses. Supernatural phenomena appear to belong to unrelated Arcana, and Nimbuses are likewise confused for someone else's or an entirely made-up one."
+            }
+          ]
+        },
+        {
+          "id":178,
+          "identity":{
+            "name":"Subtle Occlusion (Mind ••)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Veiling",
+            "primary factor":" Duration",
+            "cost":" 1 Mana",
+            "suggested rote skills":" Occult, Subterfuge, Stealth"
+          },
+          "description":[
+            "The psychonaut may veil a subject under a psychic shroud, away from prodding eyes and meddlesome influences. The subject of the spell is granted dots in the Occultation Merit equal to Potency, even if he is not Awakened. If the subject is a mage who already has the Merit, her rating in it is increased by Potency. In both cases, the Occultation Merit's rating may be raised up to five dots, exceeding its normal limit. If the subject has the Fame Merit, its effects are suppressed until the spell expires. "
+          ],
+          "others":[
+            {
+              "+1 Reach and 1 Mana":" By spending one point of Mana, the Occultation Merit may be raised above five dots, as much as Potency allows it."
+            },
+            {
+              "+2 Reach and 1 Mana":" By spending one point of Mana, the mage may make his non-Awakened subjects eligible for purchasing the Occultation Merit."
+            }
+          ]
+        },
+        {
+          "id":179,
+          "identity":{
+            "name":"Tend the Flames (Mind ••)",
+            "author":"by Tessie"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "withstand":" Composure",
+            "suggested rote skills":" Empathy, Intimidation, Socialize"
+          },
+          "description":[
+            "The mage urges the subject towards accomplishing certain goals or douses their enthusiasm. This spell bestows a number of Conditions (such as Deprived, Inspired, Obsession, Shaken or Steadfast) or Tilts (such as Beaten Down, or Insane) on the subject equal to Potency for the Duration of the Spell. The subject may Withstand negative effects with Composure.",
+            "Note that beneficial Conditions don't grant Beats when the subject resolves them unless the caster achieved an exceptional success in the casting."
+          ],
+          "others":[
+            {
+              "+2 Reach":" The Conditions and Tilts can affect spellcasting roll."
+            }
+          ]
+        },
+        {
+          "id":180,
+          "identity":{
+            "name":"That Which Doesn’t Kill You (Mind ••)",
+            "author":"by Inodiv"
+          },
+          "properties":{
+            "practice":" Ruling",
+            "primary factor":" Potency",
+            "withstand":" Resolve",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "The Mage imposes the Tension condition on the target. This condition may be resolved at any time by automatically failing any action in lieu of rolling, and causes the subject to become frustrated by her own success. For every successful action the subject takes while this Condition is in effect, tension builds, and the subject takes a cumulative -1 penalty to all future actions, until the Condition is resolved. This penalty cannot exceed five dice."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The Tension condition becomes Persistent, granting Beats every time an action is voluntarily failed. This doesn’t resolve the Condition until a number of actions have been voluntarily failed equal to Potency."
+            },
+            {
+              "+1 Reach and 1 Mana":" For a point of Mana, the penalty imposed on actions may reach above five dice - but still starts at zero. \t"
+            },
+            {
+              "Tension":" Your character is incredibly tense, and magic forces her own successes to cause that tension to grow instead of providing relief. For every successful action the subject takes while this Condition is in effect, tension builds, and the subject takes a cumulative -1 penalty to all future actions, until the Condition is resolved. This penalty cannot exceed five dice."
+            },
+            {
+              "Resolution":" Opt to fail any roll with meaningful consequences."
+            }
+          ]
+        },
+        {
+          "id":181,
+          "identity":{
+            "name":"Under the Bushel (Mind ••)",
+            "author":"by Moinen"
+          },
+          "properties":{
+            "practice":" Veiling",
+            "primary factor":" Duration",
+            "cost":" 1 Mana",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "This spell hides the will of the subject from others making it impossible to be aware of Clash of Wills against them. Others also can't spend Willpower on the test. ST makes a hidden roll of Power Stat + Power for an unaware participant."
+          ],
+          "others":[
+            {
+              "+1 Reach":" By blurring the edges of the subject’s will, the spell assures victory in uncertain circumstances. In the case of a draw, the subject wins or rather the opponent loses by giving up too early."
+            }
+          ]
+        }
+      ],
+      "disciple":[
+        {
+          "id":182,
+          "identity":{
+            "name":"Akashic Repository (Mind •••)",
+            "author":"by Menace"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Duration",
+            "suggested rote skills":" Socialize, Academics, Science"
+          },
+          "description":[
+            "Though the Akashic Records are inaccessible as far as any willworker knows, a Mage can turn himself into a smaller repository of knowledge. This spell allows all of its subjects to share a number of the mage's of a number of skills. Choose a number of Skills equal to the spell’s Potency. Whenever one subject needs to make a roll involving one of the chosen Skills, they can use the mage's dot rating. This doesn't affect rolls to activate supernatural powers such as rotes or supernatural abilities."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The subjects share the use of skill with each other not only with the mage."
+            },
+            {
+              "+2 Reach":" The subjects share all skills, not just the chosen ones."
+            },
+            {
+              "+1 Reach":" The mage can also choose a single mental Merit to share"
+            }
+          ]
+        },
+        {
+          "id":183,
+          "identity":{
+            "name":"Astral Invitation (Mind •••)",
+            "author":"by Inodiv"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Potency",
+            "withstand":" Resolve",
+            "suggested rote skills":" Empathy, Occult, Socialize"
+          },
+          "description":[
+            "A subject of this spell may choose to enter the Oneiros of another subject when meditating into the Astral. The ‘host’ subject must be determined at the time the spell is cast, by the caster."
+          ],
+          "others":[
+            {
+              "+1 Reach":" Instead of a single host, all subjects may enter the Oneiros of any other subject."
+            },
+            {
+              "+1 Reach":" This effect extends to any time a subject would enter their Oneiros (including backtracking from the Temenos), and not just the initial Meditation into the Astral."
+            },
+            {
+              "+1 Reach":" When entering the same Oneiros, all the entry points of all subjects are within the same general area, requiring no more than a few seconds of travel to traverse the distance between them."
+            }
+          ]
+        },
+        {
+          "id":184,
+          "identity":{
+            "name":"Blur the Past (Mind •••)",
+            "author":"by Neros"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Duration",
+            "withstand":" Resolve",
+            "suggested rote skills":" Academia, Stealth, Subterfuge"
+          },
+          "description":[
+            "The mage can change a memory without the need to read the subject’s mind, as long as it is a memory he knows the subject has. Either the mage experienced it himself, saw a video or a photo with an accurate description. The changed memory must still be within the same context of the original memory. The number of changes that can be made is equal to Potency.",
+            "Once the Duration expires, the subject instantly reverts to its original memory. Memories of the time spent 'blurred' will seem distant and hazy, dreamlike, but the subject will remember the altered perspective at least to some degree. But if the memory that is changed is very trivial to the subject and the Duration is long enough, the subject may have naturally forgotten the change as time passes, even when the spell ends."
+          ],
+          "others":[
+            {
+              "+1 Reach":" A Willworker can completely rework what the subject can remember. One memory per Potency can be changed to anything the mage wishes."
+            },
+            {
+              "+2 Reach":" The effect is lasting."
+            }
+          ]
+        },
+        {
+          "id":185,
+          "identity":{
+            "name":"Burning Bright (Mind •••)",
+            "author":"by Deionscribe"
+          },
+          "properties":{
+            "practice":" Perfecting",
+            "primary factor":" Potency",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "The Mage can bless a subject so that a given action he exerts great effort on has a higher chance of success. When he spends Willpower to bolster an action, he may add the spell's Potency as the bonus, instead of the usual +3."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The subject may apply the benefits of the spell an additional number of times equal to Reach spent."
+            }
+          ]
+        },
+        {
+          "id":186,
+          "identity":{
+            "name":"Enlightened Will (Mind •••)",
+            "author":"by Caladriu "
+          },
+          "properties":{
+            "practice":" Perfecting",
+            "primary factor":" Duration",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "The mage grants the subject an additional Vice, as the Vice-Ridden Merit: 'Succeeding on invested actions.' This means the first significant success towards an Aspiration or Obsession in a scene restores a point of willpower. Of course, these are not the only investments a mind makes; any roll on which the character spends Willpower counts, as well. "
+          ],
+          "others":[
+            {
+              "+1 Reach and 1 Mana":" For a point of Mana, mundane actions where the subject spends Willpower have the rote quality."
+            },
+            {
+              "+2 Reach and 1 Mana":" For a point of Mana, the subject automatically succeeds on uncontested mundane actions where they spend Willpower. On contested mundane actions, they add effective successes equal to Potency if they rolled at least one success."
+            }
+          ]
+        },
+        {
+          "id":187,
+          "identity":{
+            "name":"Expert System (Mind •••, Forces ••)",
+            "author":"by galivet "
+          },
+          "properties":{
+            "practice":" Perfecting",
+            "primary factor":" Duration",
+            "suggested rote skills":" Computer, Expression"
+          },
+          "description":[
+            "This spell modifies a computing device by adding a program to it that provides the functionality of an expert system for any skill chosen by the caster. For the Duration of the spell, if the device's user is able to use the device as a tool when rolling the relevant skill, the device provides a bonus to the roll equal to Potency. The device's user must have at least one dot in the skill to benefit from the expert system. At the end of the spell's Duration, the expert system 'uninstalls' itself from the device."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The mage may provide an additional expert system that benefits another skill for each additional reach, subdividing Potency among them."
+            }
+          ]
+        },
+        {
+          "id":188,
+          "identity":{
+            "name":"False Fame (Mind •••)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "primary factor":" Duration",
+            "withstand":" Composure",
+            "suggested rote skills":" Persuasion, Socialize, Streetwise"
+          },
+          "description":[
+            "The psychonaut weaves the subject's psychic presence into a whirlpool, drawing in attention and recognition. The subject gains the Fame Merit at a rating equal to the spell's effective Potency, up to the Merit's normal 3-dot limit.",
+            "What the subject is famous for is left vague. People will 'know' she is famous, but unable to pinpoint for what and make assumptions. If the subject fails a Social roll on which the Fame's dice bonus was applied, it becomes a dramatic failure where she draws unnecessary attention and suspicion.",
+            "As this Merit is a mere psychic illusion, it does not grant the minimum Withstand rating. Also, beings using supernatural means of identifying the subject, as well as those with a general defense against psychic suggestions, may pierce the spell with a Clash of Wills."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The vagueness of the hollow fame is removed, as each onlookers' minds convince themselves. The subject no longer risks automatic dramatic failure upon a failed Social roll."
+            },
+            {
+              "+1 Reach and 1 Mana":" With a point of Mana, the illusory Fame may rise beyond 3 dots."
+            },
+            {
+              "Add Space •••":" The web of sympathies around the subject change to fit her new station. The spell's Fame now grants the minimum Withstand rating against spells targeting the subject."
+            }
+          ]
+        },
+        {
+          "id":189,
+          "identity":{
+            "name":"Forgetfulness (Mind •••)",
+            "author":"by Poseur"
+          },
+          "properties":{
+            "practice":" Fraying",
+            "primary factor":" Potency",
+            "withstand ":" Resolve",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "This spell allows the mage to alter the subject’s thoughts that it possesses in the moment, hiding them from the subject’s consciousness: it makes every action harder to focus on because the subject needs to force its will to remember her own thoughts. This spell gives the subject a penalty equal to Potency on her next action."
+          ]
+        },
+        {
+          "id":190,
+          "identity":{
+            "name":"Golden Years, Tarnished Black (Mind •••)",
+            "author":"by amechra"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Potency",
+            "withstand":" Composure",
+            "suggested rote skills":" Empathy, Intimidate, Occult"
+          },
+          "description":[
+            "Memories are fickle and changeable - exploiting this, the subject has one of their happy memories stripped of all of its positive aspects. They suffer the False Memories (VtR: B&S) condition with regards to that memory."
+          ],
+          "others":[
+            {
+              "+1 Reach":" You are no longer restricted to only affecting happy memories. When this spell is used to worsen unhappy memories, the subject suffers the Fugue condition with regards to that memory instead."
+            },
+            {
+              "+1 Reach":" You can use this spell to make a memory happier, rather than worsening it. When the False Memories condition caused by this spell is resolved, the subject takes a Condition as if this spell was used to worsen that memory instead."
+            },
+            {
+              "+1 Reach":" The subject gains the Addicted condition in relation to an element of that memory instead of the False Memories condition. Nostalgia can be a bitch."
+            }
+          ]
+        },
+        {
+          "id":191,
+          "identity":{
+            "name":"Goetic insertion (Mind •••)",
+            "author":"by Menace"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Potency",
+            "withstand":" Composure/Rank",
+            "suggested rote skills":" Expression, Persuasion, Larceny"
+          },
+          "description":[
+            "The casting mage can insert a free floating Goetia into the subject’s mind. Unless the mage targets himself with the spell, this requires taking additional spell factors.The goetic becomes an inherent part of the subject’s psyche. This might cause the subject to gain an additional Virtue, Vice or Aspiration. However as a person's psyche can only hold so much the Goetia in her fight for domination so after a time the new element of his psyche fades or replaces some other one of the same type."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The Goetia can coexist indefinitely with other parts of the target’s personality."
+            },
+            {
+              "+2 Reach":" The effect is Lasting (but see above"
+            }
+          ]
+        },
+        {
+          "id":192,
+          "identity":{
+            "name":"I Know Kung Fu (Mind •••)",
+            "author":"by Ehkesoyo"
+          },
+          "properties":{
+            "practice":" Perfecting",
+            "primary factor":" Potency",
+            "suggested rote skills":" ?"
+          },
+          "description":[
+            "Movie nights at the Lorehouse can, sometimes, lead to some interesting developments. It is said the first Rote version included a 'come hither' gesture among its Mudras. This spell allows the mage to access a Fighting Merit with dots equal to potency for the Duration. The subject must fulfill the requirements as usual since the spell only provides the knowledge and muscle memory for the merit, but doesn't do anything to improve the capabilities of the mage."
+          ],
+          "others":[
+            {
+              "+1 Reach":" Mental or social attributes or skills can be enhanced in order to fulfill the requirements for a merit. Each point of potency spent this way nets one point. "
+            },
+            {
+              "Add Life •••":" Allow the same with physical attributes."
+            }
+          ]
+        },
+        {
+          "id":193,
+          "identity":{
+            "name":"Power Through Slavery (Mind •••)",
+            "author":"by amechra"
+          },
+          "properties":{
+            "practice":" Weaving",
+            "primary factor":" Duration",
+            "withstand":" Resolve",
+            "suggested rote skills":" Intimidation, Occult, Persuasion"
+          },
+          "description":[
+            "A distressingly popular spell amongst both the Adamantine Arrow and the Seers of the Throne (though for very different reasons). Upon casting this spell, choose another person to be your target's 'master' - your target receives Obedience to [Master's Name] as a second Vice, and takes a Beat whenever they fulfill that Vice."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The target may take an Arcane Beat instead of a normal Beat whenever they would fulfill their secondary Vice. They may also treat 'following my master's orders' as an Oblation."
+            },
+            {
+              "+1 Reach":" The master you choose may be an organization rather than a single person - the target's second Vice becomes Obedience to Members of [Organization Name]."
+            },
+            {
+              "+1 Reach":" The master you choose gains the benefits of the Loved merit with regards to the Target."
+            },
+            {
+              "Add Prime ••":" The target does not suffer Breaking Points due to their master's spells - they still suffer from all the other effects of the Sleeping Curse."
+            },
+            {
+              "Add Death •••":" The target suffers from the Soulless condition for the Duration of the spell."
+            }
+          ]
+        },
+        {
+          "id":194,
+          "identity":{
+            "name":"Psychic Violation (Mind •••)",
+            "author":"by 21C Hermit"
+          },
+          "properties":{
+            "practice":" Fraying",
+            "primary factor":" Potency",
+            "withstand":" Resolve",
+            "suggested rote skills":" Intimidation, Academics, Empathy"
+          },
+          "description":[
+            "A mind is concrete as any other Pattern to practitioners of the Mind Arcanum, and an Adept can pull at its loose threads to unravel its structure. This spell saps its subject of Willpower points equal to Potency. Subjects who have zero Willpower suffer half of remaining Potency, rounded down, as bashing damage."
+          ],
+          "others":[
+            {
+              "+1 Reach":" Instead of sapping Willpower points, the spell now decreases the subject's Willpower dots. Unlike the normal effect, this lasts only for the spell's Duration."
+            },
+            {
+              "+1 Reach":" Instead of sapping Willpower, the spell inflicts the Soul Shocked Condition."
+            },
+            {
+              "+1 Reach":" The victim suffers the Beaten Down Tilt, in addition to the other effects. This ignores being immune to the Tilt via being accustomed to violence."
+            },
+            {
+              "Add Death •••":" The trauma forces the victim to roll for an Integrity or Wisdom breaking point, in addition to the other effects. Supernatural entities with other Integrity substitutes may be affected at Storyteller discretion."
+            }
+          ]
+        },
+        {
+          "id":195,
+          "identity":{
+            "name":"The Snake Within (Mind •••)",
+            "author":"by Five Eyes"
+          },
+          "properties":{
+            "practice":" Perfecting",
+            "primary factor":" Potency",
+            "suggested rote skills":" Politics, Empathy, Streetwise"
+          },
+          "description":[
+            "The next time during this spell's Duration that its subject would recover Willpower from indulging their Vice, they recover a number of points equal to the spell's Potency, instead of the usual one. If this value exceeds their Resolve, they will develop a Condition related to the rush of the experience, such as Addicted, Guilty, or Obsession."
+          ],
+          "others":[
+            {
+              "+1 Reach and 1 mana":" The subject may recover Willpower from their Vice under the auspices of this spell even if they have already indulged their Vice in that scene."
+            }
+          ]
+        },
+        {
+          "id":196,
+          "identity":{
+            "name":"Unfaltering (Mind •••)",
+            "author":"by Inodiv"
+          },
+          "properties":{
+            "practice":" Perfecting",
+            "primary factor":" Duration",
+            "suggested rote skills":" Academics, Athletics, Occult"
+          },
+          "description":[
+            "The mage bolsters the subject's Resolve, allowing them to remain conscious even when their body is ready to collapse. Stamina rolls to remain conscious due to damage are considered to automatically succeed, and supernatural effects that knock the subject unconscious provoke a Clash of Wills."
+          ],
+          "others":[
+            {
+              "+1 Reach":" This spell can revive someone who is currently unconscious."
+            },
+            {
+              "+1 Reach":" This spell allows the subject to ignore wound penalties equal to Potency."
+            }
+          ]
+        },
+        {
+          "id":197,
+          "identity":{
+            "name":"Will Of Fire (Mind •••)",
+            "author":"by Deionscribe"
+          },
+          "properties":{
+            "practice":" Perfecting",
+            "primary factor":" Potency",
+            "suggested rote skills":" Empathy, Expression, Persuasion"
+          },
+          "description":[
+            "Fiery rhetoric can bolster human spirits. And with the right words, a Mage can give a group of friends and followers the will to succeed above and beyond their own capacity. The spell grants one Willpower point to the subject equal to its Potency. These Willpower points can only be used for actions related to the purpose of the spell, and cannot be regained once used."
+          ],
+          "others":[
+            {
+              "+ 2 Reach":" The Willpower gained from this spell may now be spent without any restriction."
+            }
+          ]
+        }
+      ],
+      "adept":[
+        {
+          "id":198,
+          "identity":{
+            "name":"Beneath Your Skin (Mind ••••, Death ••••)",
+            "author":"by Zombiecakes"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Duration",
+            "suggested rote skills":" Stealth, Occult, Subterfuge."
+          },
+          "description":[
+            "The Mage possesses a target, as per the Mind 4 spell 'Possession', with the added twist of transforming their dormant body into a shadow, as per the Death 4 spell 'Shadow Flesh', and pinning the shadow unto the possessed target's own. In this form you gain the Physical Attributes of the subject, and retain your Mental Attributes, as well as your ability to cast spells. As a standard action, you may touch another subject and 'jump' into them, also instantly pinning your own shadow-body without any conscious effort. However, this does cause the previously possessed to come out of it under a state of malaise, potentially drawing suspicion, if only for a moment."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The Mage can alternate between controlling the possessed body, or moving the shadow-body independently of it as a reflexive action, though you can only control one by default."
+            },
+            {
+              "+1 Reach":" The Mage can possess another subject via Sensory Range, not just Touch."
+            },
+            {
+              "+1 Reach":" The Mage may, as a Standard action, take an item originally transformed on their person at the time of spellcasting, and bring it into normal form again for use."
+            }
+          ]
+        },
+        {
+          "id":199,
+          "identity":{
+            "name":"Crab-Brain (Mind ••••, Life ••••)",
+            "author":"by espritdecalmar"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary spell factor":" Duration",
+            "withstand":" Resolve",
+            "cost":" None or 1 Mana",
+            "suggested rote skills":" Animal Ken, Crafts, Empathy"
+          },
+          "description":[
+            "I don't really know why you'd cast this spell, but here we are. The mage who decides to do this sort of thing transforms one of the subject's thought-patterns into a living organism. This can turn a Mental Condition into an animal; the subject no longer suffers from the Condition's effects. This can also transform a memory, dream, or passing thought. To affect a Persistent Condition or fundamental part of the subject's personality requires a point of Mana. This spell can be cast with an animal symbolic of the affected thought in mind, but this is not necessary; depression can be transformed into a giraffe, and reality won't really care.",
+            "When the spell's Duration ends, the animal disappears and the Condition remanifests; if the animal is killed in the meantime, the Condition is permanently removed, but the subject gains no Beat for the excisement."
+          ]
+        },
+        {
+          "id":200,
+          "identity":{
+            "name":"Communion (Mind ••••)",
+            "author":"by HerbertIsBertBert"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Duration",
+            "withstand":" Resolve",
+            "suggested rote skills":" Academics, Occult, Persuasion"
+          },
+          "description":[
+            "Verbal communication is such a crude thing, words a poor vehicle for meaning, a direct mind-to-mind link is superior in almost every aspect. That is precisely what this spell achieves, linking the minds of its subjects on an intimate level. Not merely are they capable of reading each other’s thoughts and memories, but instead they experience them as if they were their own. This can allow a rapid communication of nuanced concepts otherwise impossible to express through language. A single discussion held amongst such individuals might not be able to be transcribed in an entire library’s worth of books.",
+            "In addition, this permits each individual insight into each other participant’s memories, feelings, perspectives, as well as their current sensory information. Effectively allowing each participant to exist as a combination of multiple people for the Duration of the spell. Due to the potential for disagreement and conflict in perspectives, as well as the potentially addictive rush of such sensations, extended or strenuous usage may inflict conditions upon subjects.",
+            "When this spell ends, each subject is left with mere memories of what he experienced, unless he immediately spends Experiences to have learned a copy of what was shared with him. Some Mages use this spell to quickly and easily teach Rotes to one another."
+          ],
+          "others":[
+            {
+              "+1 Reach":" Subjects may share the use of each other’s skills."
+            },
+            {
+              "+1 Reach":" Subjects may share the use of each other’s mental merits."
+            },
+            {
+              "+1 Reach":" Only desired information is shared between subjects, the limits of which may be expressly changed at any time, and may be subconsciously decided upon, rather than explicitly stated."
+            },
+            {
+              "+1 Reach":" The spell cannot impose negative Conditions upon its subjects."
+            },
+            {
+              "Add Prime •":" Subjects may share the use of each other’s Rotes, and may utilize each other’s Mage Sight (but must spend Mana to activate it, if not a Ruling Arcana)."
+            },
+            {
+              "Add Prime •••":" Subjects may perform cooperative, ritual spellcasting, utilizing a combination of the Arcana of the participants, so long as each has each requisite Arcana at least one dot. E.g. To cast a Prime 4, Matter 3, Mind 5 spell, all participants would need Prime 1, Matter 1, and Mind 1, but the levels of Prime 4, Matter 3, and Mind 5 could be contributed by separate Mages."
+            },
+            {
+              "Add Prime ••••":" As above, except each participant need not have at least 1 dot in each requisite Arcanum."
+            },
+            {
+              "Add Space ••":" Subjects may share use of Sympathetic Links."
+            },
+            {
+              "Add Fate ••••":" Subjects may share use of the Destiny Merit."
+            },
+            {
+              "Add Time •••":" Such is the speed at which communication is achieved that all attempts at social interaction between subjects are performed as instant actions."
+            }
+          ]
+        },
+        {
+          "id":201,
+          "identity":{
+            "name":"Unlock Potential (Mind ••••)",
+            "author":"by HerbertIsBertBert"
+          },
+          "properties":{
+            "practice":" Patterning",
+            "primary factor":" Duration",
+            "suggested rote skills":" Academics, Occult, Persuasion"
+          },
+          "description":[
+            "The mortal Mind is not quite so frail as many mages would believe, indeed those who investigate such things find it has incredible power hidden within, just waiting to be unlocked.",
+            "With this spell, the mage can short-cut the Sleeper or Sleepwalker's mind to access these powers, stepping around whatever inherent blocks stop them from accessing them. For the Duration of the spell, the subject gains dots in a 'mental' Supernatural Merit equal to the spell's Potency. These can include such merits as Psychometry, Telekinesis, and Telepathy. Due to the Supernatural nature of these merits for the Duration of the spell the subject counts as a Sleepwalker, and does not trigger Paradox or Dissonance until the spell ends."
+          ],
+          "others":[
+            {
+              "+1 Reach":" The Mage may grant the subject an additional psychic Merit, dividing Potency between them, this Reach option may be taken additional times."
+            },
+            {
+              "+2 Reach":" The Psychic Merits do not have their normal Drawbacks."
+            },
+            {
+              "Add Arcanum 2":" The Mage may grant other supernatural merits which relate to phenomenon other than the mind alone, requiring the appropriate Arcanum at 2 dots. e.g. Forces 2 for Pyrokinesis, and Fate 2 for Thief of Fate."
+            }
+          ]
+        }
+      ],
+      "master":[
+        {
+          "id":202,
+          "identity":{
+            "name":"Wake the Beast (Mind •••••)",
+            "author":"by Flinty, in 'Flintys Homebrew Hub 2e'"
+          },
+          "properties":{
+            "practice":" Making",
+            "primary factor":" Duration",
+            "withstand":" Resolve",
+            "suggested rote skills":" Medicine, Survival, Persuasion"
+          },
+          "description":[
+            "The mage levies a powerful curse upon an enemy, creating a 'Beast' in the back of his mind, similar to that of a Kindred. As the mage is creating the beast for the character he can endow it with a number of Frenzy triggers equal to the potency of the spell, defining the response of the beast (fight or flight) to the trigger as well. A mage frenzying does not gain any of the bonuses a vampire would."
+          ],
+          "others":[
+            {
+              "+1 Reach":" If the subject successfully resists frenzy, he gains the 'Tempted' condition as a vampire would."
+            }
+          ]
+        }
+      ]
     }
   }
 ]
