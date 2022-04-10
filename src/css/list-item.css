@@ -65,6 +65,7 @@
   padding: var(--padding-spell-body);
   font-family: var(--font-spell-body);
   font-weight: var(--font-weigth-body);
+  font-size: var(--font-size);
 }
 
 .spell__description:last-child{
@@ -74,12 +75,11 @@
 .spell__description .others{
   text-indent: 10px;
   font-size: var(--font-size);
-  font-weight: var(--font-weigth-body);
 }
 
 .spell__description .others__title{
   font-size: var(--font-size);
-  font-weight: var(--font-weigth-body);
+  font-weight: bold;
 }
 
 .description{
