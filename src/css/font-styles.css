@@ -1,6 +1,9 @@
-@font-face{
-  font-family: 'morrison';
-  src: url('../fonts/morris_roman/MorrisRomanBlack.ttf');
-  font-weight: normal;
-  font-style: normal;
+@font-face {
+  font-family: 'erato-light';
+  src: url('../fonts/EratoLig.otf');
+}
+
+@font-face {
+  font-family: 'indira';
+  src: url('../fonts/indira_k.ttf');
 }

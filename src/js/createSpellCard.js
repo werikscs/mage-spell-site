@@ -41,19 +41,19 @@ export const createSpellCard = (spellObj) => {
     <section class="spell__info">
 
       <span class="info">
-        <strong>Practice:</strong>
+        <span class="text__titles">Practice:</span>
         ${pratice}
       </span>
 
       <span class="info">
-        <strong>Primary Factor:</strong>
+        <span class="text__titles">Primary Factor:</span>
         ${primeryFactor}
       </span>
 
       ${
         manaCost ?
         ` <span class="info">
-            <strong>Cost:</strong>
+            <span class="text__titles">Cost:</span>
             ${manaCost}
           </span>
         `
@@ -64,7 +64,7 @@ export const createSpellCard = (spellObj) => {
       ${
         withstand ?
           `<span class="info">
-            <strong>Withstand:</strong>
+            <span class="text__titles">Withstand:</span>
             ${withstand}
             </span>
           `
@@ -73,7 +73,7 @@ export const createSpellCard = (spellObj) => {
       }
 
       <span class="info">
-        <strong>Suggested Rote Skills:</strong>
+        <span class="text__titles">Suggested Rote Skills:</span>
         ${suggestedRoteSkills}
       </span>
 
@@ -102,7 +102,7 @@ export const createSpellCard = (spellObj) => {
 
       p.innerHTML = 
       `
-        <span class="others__title">${key}:</span>
+        <span class="text__titles">${key}:</span>
         ${otherObj[key]}
       `
       othersPs.push(p)
