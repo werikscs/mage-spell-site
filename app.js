@@ -3,6 +3,8 @@ import { dbSpells } from './src/db/dbSpells.js';
 import { createSpellCard } from './src/js/createSpellCard.js';
 
 const ulSpells = document.querySelector('.spells__list');
+
+let searchedText = '';
 let searchedArcana = 'all';
 let searchedDegree = 'all';
 let favoriteArray = [];
@@ -43,7 +45,6 @@ function searchForDegreeList(arcana){
       }
     }
 
-
   }
 
 }
@@ -64,7 +65,6 @@ function searchForDegree(degreeList){
       }
 
     }
-
     
   }
 
@@ -74,19 +74,17 @@ function searchForSpell(spellList){
 
   spellList.forEach( spell => {
 
-    const spellName = spell.identity.name;
-
     if(isShowingFavoriteSpells){
 
+      const spellName = spell.identity.name;
+
       if(favoriteArray.includes(spellName)){
-        const spellCard = createSpellCard(spell);
-        ulSpells.appendChild(spellCard);
+        searchForRegExp(spell);
       }
 
     } else {
 
-      const spellCard = createSpellCard(spell);
-      ulSpells.appendChild(spellCard);
+      searchForRegExp(spell);
 
     }
 
@@ -94,8 +92,40 @@ function searchForSpell(spellList){
 
 }
 
+function searchForRegExp(spell){
+
+  const spellName = spell.identity.name;
+  const re = RegExp(searchedText, 'ig');
+
+  if(searchedText.length){
+
+    if(re.test(spellName)){
+      const spellCard = createSpellCard(spell);
+      ulSpells.appendChild(spellCard);
+    }
+
+  } else {
+    const spellCard = createSpellCard(spell);
+    ulSpells.appendChild(spellCard);
+  }
+}
+
 setupOpenCloseMenu();
 searchForArcana();
+
+const searchButton = document.querySelector('.search-button');
+searchButton.addEventListener('click', () => {
+  const searchInput = document.querySelector('.search-input');
+  console.log(searchInput.value)
+
+  searchedText = searchInput.value.trim();
+
+  if(searchedText.length){
+    searchForArcana();
+  }
+
+  searchInput.value = '';
+});
 
 const selectArcanas = document.querySelector('#arcanas');
 selectArcanas.addEventListener('change', (e) => {
