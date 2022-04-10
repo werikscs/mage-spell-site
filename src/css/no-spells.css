@@ -14,13 +14,13 @@
   padding: 16px;
 }
 
-h3{
+.empty-spells__title{
   text-align: center;
   font-size: 2rem;
   margin-bottom: 16px;
 }
 
-h4{
+.empty-spells__message{
   text-align: center;
   font-size: 1rem;
 }
