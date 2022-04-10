@@ -71,7 +71,7 @@ header{
 
 .main{
   position: relative;
-  height: 100vh;
+  height: 100%;
   background-color: var(--color-background-list);
 }
 
