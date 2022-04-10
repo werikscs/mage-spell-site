@@ -101,6 +101,9 @@ const selectArcanas = document.querySelector('#arcanas');
 selectArcanas.addEventListener('change', (e) => {
   searchedArcana = e.target.value;
   isShowingFavoriteSpells = false;
+
+  isToShowEmptyFavorites(false)
+
   searchForArcana();
 });
 
@@ -108,6 +111,9 @@ const selectDegrees = document.querySelector('#degrees');
 selectDegrees.addEventListener('change', (e) => {
   searchedDegree = e.target.value;
   isShowingFavoriteSpells = false;
+
+  isToShowEmptyFavorites(false)
+
   searchForArcana();
 });
 
@@ -117,9 +123,10 @@ favoriteButton.addEventListener('click', () => {
   favoriteArray = localStorage.getItem('spellsNames') ?
     JSON.parse(localStorage.getItem('spellsNames')) : [];
 
-  isShowingFavoriteSpells = true;
-  searchForArcana();
-
+    isShowingFavoriteSpells = true;
+    favoriteArray.length ?
+      isToShowEmptyFavorites(false) : isToShowEmptyFavorites(true)
+    searchForArcana();
 
 });
 
@@ -172,9 +179,23 @@ function handleLocalStorage(action, spellName){
 
     localStorage.setItem('spellsNames', JSON.stringify(arrayNames));
 
-    if(isShowingFavoriteSpells){
-      searchForArcana();
-    }
+    favoriteArray.length ?
+      isToShowEmptyFavorites(false) : isToShowEmptyFavorites(true)
+
+    searchForArcana();
   }
 
+}
+
+function isToShowEmptyFavorites(boolean){
+  const sectionEmptySpells = document.querySelector('#empty-spells');
+  const sectionSpells = document.querySelector('.spells');
+
+  if(boolean){
+    sectionSpells.classList.add('hidden')
+    sectionEmptySpells.classList.add('empty-spells');
+  } else {
+    sectionEmptySpells.classList.remove('empty-spells');
+    sectionSpells.classList.remove('hidden')
+  }
 }

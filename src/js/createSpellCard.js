@@ -1,6 +1,5 @@
 export const createSpellCard = (spellObj) => {
 
-  console.log(spellObj)
   // console.log(spellObj);
   const spellID = spellObj.id;
 
