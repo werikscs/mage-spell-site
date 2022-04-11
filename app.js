@@ -113,10 +113,17 @@ function searchForRegExp(spell){
 setupOpenCloseMenu();
 searchForArcana();
 
+const searchInput = document.querySelector('.search-input');
 const searchButton = document.querySelector('.search-button');
+
+searchInput.addEventListener('keyup', (e) => {
+  if(e.key === "Enter"){
+    searchButton.click();
+  }
+});
+
+
 searchButton.addEventListener('click', () => {
-  const searchInput = document.querySelector('.search-input');
-  console.log(searchInput.value)
 
   searchedText = searchInput.value.trim();
 
@@ -125,6 +132,7 @@ searchButton.addEventListener('click', () => {
   }
 
   searchInput.value = '';
+
 });
 
 const selectArcanas = document.querySelector('#arcanas');
