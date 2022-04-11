@@ -21,12 +21,14 @@ const setupOpenCloseMenu = () => {
 
   });
 
-  window.addEventListener('resize', () => {
+  // window.addEventListener('resize', () => {
 
-    filterBgAux.classList.remove('filters--opened');
-    ulFiltersList.classList.remove('filters--opened');
+  //   if(window.innerWidth)
 
-  });
+  //   filterBgAux.classList.remove('filters--opened');
+  //   ulFiltersList.classList.remove('filters--opened');
+
+  // });
 
   function toggleShowFilters(){
 
