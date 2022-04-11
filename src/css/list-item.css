@@ -44,6 +44,7 @@
   font-size: var(--font-size-author);
   font-weight: var(--font-weigth-body);
   padding-left: 18px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
 }
 
 .author__title, .text__titles{
