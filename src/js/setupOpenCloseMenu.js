@@ -1,9 +1,9 @@
 const setupOpenCloseMenu = () => {
   
-  const buttonMenu = document.querySelector('.header__menuIcon');
+  const buttonMenu = document.querySelector('.header__menu-icon');
 
-  const filterBgAux = document.querySelector('.filters__background-aux');
-  const ulFiltersList = document.querySelector('.filters__list');
+  const filterBgAux = document.querySelector('.bg-aux');
+  const ulFiltersList = document.querySelector('.menu__ul-filters');
 
   buttonMenu.addEventListener('click', () => {
 
@@ -11,8 +11,8 @@ const setupOpenCloseMenu = () => {
 
   });
 
-  const filtersSection = document.querySelector('.filters');
-  filtersSection.addEventListener('click', (e) => {
+  const navMenu = document.querySelector('.menu');
+  navMenu.addEventListener('click', (e) => {
 
     const target = e.target;
     if(target.tagName === 'DIV'){
@@ -20,15 +20,6 @@ const setupOpenCloseMenu = () => {
     }
 
   });
-
-  // window.addEventListener('resize', () => {
-
-  //   if(window.innerWidth)
-
-  //   filterBgAux.classList.remove('filters--opened');
-  //   ulFiltersList.classList.remove('filters--opened');
-
-  // });
 
   function toggleShowFilters(){
 

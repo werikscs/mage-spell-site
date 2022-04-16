@@ -31,7 +31,7 @@ body{
   background: #c2d2d8;
 }
 
-header{
+/* header{
   width: 100%;
   height: 75px;
   position: fixed;
@@ -41,34 +41,7 @@ header{
   background: linear-gradient(-90deg, rgba(44,123,149,1) 0%, rgba(0,65,94,1) 100%);
   z-index: 5;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.header__internal{
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  max-width: var(--max-width);  
-}
-
-.header__title{
-  color: white;
-  font-size: 1.5rem;
-  padding-left: 18px;
-}
-
-.header__title p{
-  color: rgba(255, 255, 255, 0.85);
-  text-align: start;
-  font-size: 0.9rem;
-}
-
-.header__menuIcon{
-  font-size: 1.5rem;
-  padding: 0 16px;
-  color: #ffffff;
-  margin-left: auto;
-}
+} */
 
 .main{
   position: relative;
@@ -76,105 +49,6 @@ header{
   background-color: var(--color-background-list);
   display: flex;
   justify-content: center;
-}
-
-.filters{
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  top: 75px;
-  z-index: 3;
-}
-
-.filters__background-aux{
-  display: none;
-  left: 0;
-  background-color: var(--color-background-filters--closed);
-}
-
-.filters__list{
-  max-width: 50%;
-  display: none;
-  right: 0;
-  padding: 8px;
-  background-color: var(--color-primary-50);
-}
-
-.filters__list > *{
-  margin-bottom: 16px;
-}
-
-.filter__input-search{
-  gap: 8px;
-}
-
-.favorite, .search-button{
-  width: 100%;
-  height: 25px;
-  cursor: pointer;
-  padding: 4px;
-  text-align: center;
-  border-radius: 4px;
-  font-weight: 600;
-  color: #ffffff;
-  background-color: var(--color-secundary);
-  border: none;
-  font-size: var(--font-size-filters);
-}
-
-.favorite:hover, .search-button:hover{
-  filter: brightness(0.9);
-}
-
-.search-input{
-  border-radius: 4px;
-  border: none;
-  outline: none;
-  height: var(--height-filters);
-  padding-left: 6px;
-}
-
-.search-button{
-  border: none;
-}
-
-select{
-  height: 25px;
-  border-radius: var(--border-radius-filter);
-  border: none;
-  background-color: #ffffff;
-  padding-left: 4px;
-  outline: none;
-  border: none;
-}
-
-label{
-  color: #333;
-  font-weight: 600;
-  font-size: var(--font-size-filters);
-  padding-left: 6px;
-}
-
-
-.filters--opened{
-  display: unset;
-  position: fixed;
-  padding: 8px;
-  width: 100%;
-  height: 100vh;
-  z-index: 4;
-}
-
-.disabled-scroll{
-  overflow: hidden;
-}
-
-.filters__list-item{
-  display: flex;
-  flex-direction: column;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  list-style-type: none;
 }
 
 .spells{
@@ -220,38 +94,20 @@ label{
 
 @media screen and (min-width: 425px) {
   
-  .filters__list{
-    min-width: 210px;
-    max-width: 40%;
-  }
+  
 
 }
 
 @media screen and (min-width: 768px) {
 
-  header{
+  /* header{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--color-primary);
     z-index: 5;
-  }
-
-  .header__internal{
-    justify-content: space-between;
-    padding: 0 24px;
-  }
-
-  .header__title{
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0;
-  }
-
-  .header__title p{
-    display: block;
-  }
+  } */
 
   .main{
     display: flex;
@@ -270,81 +126,7 @@ label{
   .spells__list{
     margin-right: 0;
   }
-
-  .filters{
-    position: static;
-  }
-
-  .filters__background-aux{
-    display: none;
-  }
   
-  .filters__list{
-    width: unset;
-    display: flex;
-    align-items: flex-end;
-    max-width: none;
-    padding: 0;
-    background-color: transparent;
-  }
-
-  .filters__list-item{
-    padding: 0 0 0 8px;
-  }
-
-  .favorite{
-    color: var(--color-text-filters-desktop);
-    background-color: #ffffff;
-  }
-
-  .filter__input-search{
-    order: 3;
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-    height: 25px;
-  }
-
-  label{
-    color: #ffffff;
-    font-weight: 600;
-  }
-
-  select{
-    color: var(--color-text-filters-desktop);
-    background-color: #ffffff;
-    font-weight: 600;
-  }
-
-  .search-input{
-    max-width: 170px;
-    padding: 0 8px;
-  }
-
-  .search-button{
-    width: fit-content;
-    cursor: pointer;
-    color: var(--color-text-filters-desktop);
-    background-color: #ffffff;
-    padding: 0 8px;
-  }
-
-  .favorite{
-    padding: 0 8px;
-  }
-
-  .filter__arcana{
-    width: 70px;
-  }
-
-  .filter__degree{
-    width: 70px;
-  }
-
-  .header__menuIcon{
-    display: none;
-  }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -381,10 +163,6 @@ label{
 }
 
 @media screen and (min-width: 1780px) {
-  
-  .header__internal{
-    padding: 0;
-  }
 
 }
 
