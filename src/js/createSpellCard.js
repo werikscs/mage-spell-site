@@ -27,7 +27,6 @@ export const createSpellCard = (spellObj) => {
 
   li.innerHTML = 
   `
-
     <i class="star ${favoriteStatus} fas fa-star"></i>
 
     <h3 class="spell__name">${name}</h3>
@@ -86,7 +85,7 @@ export const createSpellCard = (spellObj) => {
       }
     </section>
 
-    <section class="idSpell">#${spellID}</section>
+    <section class="idSpell">${spellID}</section>
 
   `
   const othersPs = [];
@@ -96,8 +95,6 @@ export const createSpellCard = (spellObj) => {
     const otherObj = othersArray[otherIndex];
 
     for (const key in otherObj) {
-      // console.log('titulo: ',key)
-      // console.log('descrição: ',otherObj[key])
       const p = document.createElement('p');
       p.classList.add('others');
 
