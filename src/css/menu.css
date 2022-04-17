@@ -1,11 +1,11 @@
 :root{
-  --li-height: 25px;
+  --li-font-size: 0.9rem;
   --transition-time: 0.3s;
 }
 
 header{
   width: 100%;
-  height: 75px;
+  height: 65px;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -28,6 +28,7 @@ header{
   color: white;
   font-size: 1.5rem;
   padding-left: 18px;
+  font-family: 'erato-light';
 }
 
 .header__title p {
@@ -62,6 +63,7 @@ header{
   flex-direction: column;
   gap: 12px;
   width: 50%;
+  max-width: 350px;
   height: 100%;
 
   position: fixed;
@@ -91,12 +93,22 @@ header{
   height: 45px;
 }
 
+@keyframes angle-down-hover {
+  0%    { transform: rotate(0deg) }
+  100%  { transform: rotate(180deg) }
+}
+
+@keyframes angle-down {
+  0%    { transform: rotate(180deg) }
+  100%  { transform: rotate(0deg) }
+}
+
 .menu .menu__ul-filters li a .fa-angle-down{
-  padding: 0 12px;
+  animation: angle-down var(--transition-time) forwards;
 }
 
 .menu .menu__ul-filters li:hover a .fa-angle-down{
-  transform: rotate(180deg);
+  animation: angle-down-hover var(--transition-time) forwards;
 }
 
 .menu .menu__ul-filters li a{
@@ -108,11 +120,15 @@ header{
   width: 100%;
   align-items: center;
   justify-content: center;
+  gap: 12px;
+  color: #2c7a94;
+  transition: var(--transition-time);
 }
 
-.menu .menu__ul-filters li a:hover{
+.menu .menu__ul-filters li > a:hover{
   background-color: #2c7a94;
   color: white;
+  transition: var(--transition-time);
 }
 
 .menu .menu__ul-filters ul{
@@ -158,10 +174,12 @@ header{
   height: 35px;
   padding: 8px;
   font-size: 1rem;
-  font-family: 'indira';
+  /* font-family: 'indira'; */
+  font-family: 'erato-light';
   outline: 1px solid gray;
   border: none;
   color: gray;
+  border-radius: 2.5px;
 }
 
 .search-input input::placeholder{
@@ -182,11 +200,14 @@ header{
   font-size: 1.25rem;
   font-family: 'erato-light';
   cursor: pointer;
+  border-radius: 2.5px;
+  transition: var(--transition-time);
 }
 
 .search-input button:hover{
   color: #fff;
   filter: brightness(1.2);
+  transition: var(--transition-time);
 }
 
 .header__menu-icon{
@@ -217,6 +238,8 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 0;
+    max-width: unset;
     width: 100%;
     height: 100%;
   
@@ -233,28 +256,40 @@ header{
     flex-grow: 1;
   }
 
-  .menu .menu__ul-filters li{
-    width: 150px;
+  .menu .menu__ul-filters > li{
+    max-width: 100px;
+    min-width: fit-content;
     height: 100%;
+    overflow-x: visible;
+    padding: 0 8px;
   }
+
+  /* .menu .menu__ul-filters > li:hover{
+    
+  } */
 
   .menu .menu__ul-filters li a{
     color: #fff;
     font-weight: 800;
+    font-size: var(--li-font-size);
+    transition: var(--transition-time);
   }
 
-  .menu .menu__ul-filters li a:hover{
-    color: #fff;
+  .menu .menu__ul-filters li > a:hover{
+    filter: brightness(0.8);
     background-color: transparent;
+    transition: var(--transition-time);
   }
 
   .menu .menu__ul-filters li:hover ul{
     background-color: #e0e8ef;
+    width: 135px;
   }
 
   .menu .menu__ul-filters ul{
     width: 100%;
-    top: 75px;
+    top: 65px;
+    left: -20%;
   }
 
   .menu .menu__ul-filters ul li{
@@ -267,11 +302,14 @@ header{
     color: #2c7a94;
     margin: 0 8px;
     font-weight: 400;
+    transition: var(--transition-time);
   }
 
   .menu .menu__ul-filters ul li a:hover{
+    filter: brightness(1.2);
     color: #fff;
     background-color: #2c7a94;
+    transition: var(--transition-time);
   }
 
   .header__menu-icon{
@@ -282,23 +320,33 @@ header{
     order: 10;
     width: fit-content;
     flex-direction: row;
+    margin-left: 12px;
   }
 
   .search-input input{
     width: 195px;
     flex-grow: 1;
+    font-size: 1rem;
+    border-radius: 2.5px 0 0 2.5px;
   }
 
+  /* .search-input input:focus{
+    
+  } */
+
   .search-input button{
+    font-size: 1rem;
     width: fit-content;
     padding: 0 8px;
     margin: 0;
+    font-weight: 600;
     background-color: white;
     color: #2c7a94;
+    border-radius: 0 2.5px 2.5px 0;
   }
 
   .search-input button:hover{
-    background-color: #2c7a94;
+    background-color: hsl(195, 38%, 50%);
     color: white;
   }
 
