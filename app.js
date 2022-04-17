@@ -131,6 +131,8 @@ searchButton.addEventListener('click', () => {
     searchForArcana();
   }
 
+  searchedText = '';
+
   searchInput.value = '';
 
 });
@@ -167,7 +169,9 @@ favoriteButton.addEventListener('click', () => {
 
     isShowingFavoriteSpells = true;
     favoriteArray.length ?
-      isToShowEmptyFavorites(false) : isToShowEmptyFavorites(true)
+      isToShowEmptyFavorites(false)
+      :
+      isToShowEmptyFavorites(true)
     searchForArcana();
 
 });

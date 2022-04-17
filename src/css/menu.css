@@ -240,6 +240,7 @@ header{
 
   .menu .menu__ul-filters li a{
     color: #fff;
+    font-weight: 800;
   }
 
   .menu .menu__ul-filters li a:hover{
@@ -265,6 +266,7 @@ header{
     height: 50px;
     color: #2c7a94;
     margin: 0 8px;
+    font-weight: 400;
   }
 
   .menu .menu__ul-filters ul li a:hover{
