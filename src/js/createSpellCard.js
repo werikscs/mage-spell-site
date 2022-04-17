@@ -86,6 +86,8 @@ export const createSpellCard = (spellObj) => {
       }
     </section>
 
+    <section class="idSpell">#${spellID}</section>
+
   `
   const othersPs = [];
 

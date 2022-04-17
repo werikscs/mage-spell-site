@@ -105,6 +105,14 @@
   font-weight: var(--font-weigth-body);
 }
 
+.idSpell{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 4px 6px;
+  color: rgba(0, 64, 94, 0.40);
+}
+
 @media screen and (min-width: 768px) {
   
   .spells__list__item{

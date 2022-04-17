@@ -99,9 +99,16 @@ function searchForRegExp(spell){
 
   if(searchedText.length){
 
-    if(re.test(spellName)){
+    if(Number(searchedText) === Number(spell.id)){ 
+
       const spellCard = createSpellCard(spell);
       ulSpells.appendChild(spellCard);
+
+    }else if(re.test(spellName)){
+
+      const spellCard = createSpellCard(spell);
+      ulSpells.appendChild(spellCard);
+
     }
 
   } else {
