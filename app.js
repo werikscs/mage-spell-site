@@ -113,8 +113,8 @@ function searchForRegExp(spell){
 setupOpenCloseMenu();
 searchForArcana();
 
-const searchInput = document.querySelector('.search-input');
-const searchButton = document.querySelector('.search-button');
+const searchInput = document.querySelector('.search-input input');
+const searchButton = document.querySelector('.search-input button');
 
 searchInput.addEventListener('keyup', (e) => {
   if(e.key === "Enter"){
@@ -131,13 +131,17 @@ searchButton.addEventListener('click', () => {
     searchForArcana();
   }
 
+  searchedText = '';
+
   searchInput.value = '';
 
 });
 
-const selectArcanas = document.querySelector('#arcanas');
-selectArcanas.addEventListener('change', (e) => {
-  searchedArcana = e.target.value;
+const ulArcanas = document.querySelector('#arcanas');
+ulArcanas.addEventListener('click', (e) => {
+
+  searchedArcana = e.target.innerText.toLowerCase();
+
   isShowingFavoriteSpells = false;
 
   isToShowEmptyFavorites(false)
@@ -145,9 +149,11 @@ selectArcanas.addEventListener('change', (e) => {
   searchForArcana();
 });
 
-const selectDegrees = document.querySelector('#degrees');
-selectDegrees.addEventListener('change', (e) => {
-  searchedDegree = e.target.value;
+const ulDegrees = document.querySelector('#degrees');
+ulDegrees.addEventListener('click', (e) => {
+  
+  searchedDegree = e.target.innerText.split(' ')[0].toLowerCase();
+
   isShowingFavoriteSpells = false;
 
   isToShowEmptyFavorites(false)
@@ -163,7 +169,9 @@ favoriteButton.addEventListener('click', () => {
 
     isShowingFavoriteSpells = true;
     favoriteArray.length ?
-      isToShowEmptyFavorites(false) : isToShowEmptyFavorites(true)
+      isToShowEmptyFavorites(false)
+      :
+      isToShowEmptyFavorites(true)
     searchForArcana();
 
 });
