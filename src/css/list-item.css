@@ -1,0 +1,127 @@
+:root{
+  --color-spell-name: #004e6e;
+  --color-spell-body: #f8f9fb;
+  --padding-spell-body: 0 8px;
+  --font-spell-body-text: 'erato-light', serif;
+  --font-spell-body-title: 'indira';
+  --font-weigth-body: 400;
+}
+
+.spells__list__item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  background-color: var(--color-spell-body);
+  border-radius: 2.5px;
+  transition: var(--time-transaction);
+  padding: 2px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.spells__list__item:last-child{
+  border-bottom: none;
+}
+
+.spells__list__item * {
+  font-size: var(--font-size);
+}
+
+.spell__name{
+  font-family: 'lilith', serif;
+  margin-left: 10px;
+  margin-right: 25px;
+  font-size: 1.65rem;
+  color: var(--color-spell-name);
+  font-weight: 400;
+  padding: 8px 0;
+  text-shadow: 0px 0px 1px rgba(0, 79, 110, 0.7);
+}
+
+.spell__author{
+  /* padding-left: 10px; */
+  margin-top: -18px;
+  font-size: var(--font-size-author);
+  font-weight: var(--font-weigth-body);
+  padding-left: 18px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.author__title, .text__titles{
+  text-align: start;
+  font-family: var(--font-spell-body-title);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.author__title{
+  font-size: var(--font-size-author);
+  font-family: var(--font-spell-body);
+  font-weight: var(--font-weigth-body);
+}
+
+.spell__info{
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+  gap: 4px;
+  font-family: var(--font-spell-body-text);
+  font-weight: var(--font-weigth-body);
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.spell__description{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: var(--padding-spell-body);
+  font-family: var(--font-spell-body-text);
+  font-weight: var(--font-weigth-body);
+  font-size: var(--font-size);
+  line-height: 21px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.spell__description:last-child{
+  margin-bottom: 8px;
+}
+
+.spell__description{
+  text-indent: 10px;
+}
+
+.spell__description .others__title{
+  font-size: var(--font-size);
+  font-weight: bold;
+}
+
+.others{
+  text-align: justify;
+}
+
+.description{
+  text-indent: 10px;
+  text-align: justify;
+  font-family: var(--font-spell-body);
+  font-weight: var(--font-weigth-body);
+}
+
+.idSpell{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2px 6px;
+  color: rgba(0, 64, 94, 0.40);
+}
+
+@media screen and (min-width: 768px) {
+  
+  .spells__list__item{
+    padding: 8px;
+  }
+
+  .spell__name{
+    font-size: 2rem;
+    /* text-shadow: 0px 0px 1px rgba(0,78,109,1); */
+  }
+
+}

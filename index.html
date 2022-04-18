@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="List of spells created by players using Creative Thaumaturgy for the Mage: Awakening 2nd Edition." />
+
+    <script src="https://kit.fontawesome.com/13abe56eba.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./src/css/font-styles.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/menu.css">
+    <link rel="stylesheet" href="./src/css/list-item.css" />
+    <link rel="stylesheet" href="./src/css/no-spells.css" />
+
+    <title>Mage: The Awakening 2nd - Community Spells</title>
+  </head>
+  <body>
+    <header>
+      <section class="header__internal">
+        <h1 class="header__title">
+          Community Spells
+          <p>Mage: The Awakening 2nd Edition</p>
+        </h1>
+
+        <nav class="menu">
+
+          <div class="bg-aux"></div>
+
+          <ul class="menu__ul-filters">
+
+            <li class="search-input">
+              <input type="text" name="spellname" placeholder="Spellname" />
+              <button>Search</button>
+            </li>
+
+            <li><a href="#" class="favorite">FAVORITES</a></li>
+
+            <li>
+              <a href="#">ARCANA<i class="fa-solid fa-angle-down"></i></a>
+              <ul id="arcanas">
+                <li>
+                  <a href="#">ALL</a>
+                  <span id="all"></span>
+                </li>
+                <li>
+                  <a href="#">DEATH</a>
+                  <span id="death"></span>
+                </li>
+                <li>
+                  <a href="#">FATE</a>
+                  <span id="fate"></span>
+                </li>
+                <li>
+                  <a href="#">FORCES</a>
+                  <span id="forces"></span>
+                </li>
+                <li>
+                  <a href="#">LIFE</a>
+                  <span id="life"></span>
+                </li>
+                <li>
+                  <a href="#">MATTER</a>
+                  <span id="matter"></span>
+                </li>
+                <li>
+                  <a href="#">MIND</a>
+                  <span id="mind"></span>
+                </li>
+                <li>
+                  <a href="#">PRIME</a>
+                  <span id="prime"></span>
+                </li>
+                <li>
+                  <a href="#">SPACE</a>
+                  <span id="space"></span>
+                </li>
+                <li>
+                  <a href="#">SPIRIT</a>
+                  <span id="spirit"></span>
+                </li>
+                <li>
+                  <a href="#">TIME</a>
+                  <span id="time"></span>
+                </li>
+              </ul>              
+            </li>
+
+            <li><a href="#">DEGREE<i class="fa-solid fa-angle-down"></i></a>
+              <ul id="degrees">
+                <li><a href="#">ALL</a></li>
+                <li><a href="#">INITIATE (•)</a></li>
+                <li><a href="#">APPRENTICE (••)</a></li>
+                <li><a href="#">DISCIPLE (•••)</a></li>
+                <li><a href="#">ADEPT (••••)</a></li>
+                <li><a href="#">MASTER (•••••)</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#">ABOUT</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <i class="header__menu-icon fa-solid fa-bars"></i>
+
+      </section>
+    </header>
+
+    <main class="main">
+      <section id="empty-spells" class="hidden">
+        <span class="empty-spells__title">You don't have favorite spells.</span>
+        <span class="empty-spells__message">To favorite a spell, click the star icon on a spell.</span>
+      </section>
+
+      <section class="spells">
+        <ul class="spells__list"></ul>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

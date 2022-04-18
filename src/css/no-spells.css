@@ -1,0 +1,26 @@
+.empty-spells{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 90vw;
+  max-width: 500px;
+  height: 50vh;
+  position: absolute;
+  top: 30vh;
+  background-color: var(--color-spell-body);
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.empty-spells__title{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.empty-spells__message{
+  text-align: center;
+  font-size: 1rem;
+}
