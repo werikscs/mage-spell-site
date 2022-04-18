@@ -9,6 +9,7 @@ let searchedArcana = 'all';
 let searchedDegree = 'all';
 let favoriteArray = [];
 let isShowingFavoriteSpells = false;
+let allArcanaQuantity = 0;
 // console.log(ulSpells);
 
 // const searchedText = document.querySelector('#searchInput');
@@ -16,6 +17,7 @@ let isShowingFavoriteSpells = false;
 function searchForArcana(){
 
   ulSpells.innerHTML = '';
+  allArcanaQuantity = 0;
 
   for (const arcana in dbSpells) {
     
@@ -34,6 +36,8 @@ function searchForDegreeList(arcana){
   for(const degreeList in arcana) {
     
     const currentDegreeList = arcana[degreeList];
+
+    countSpellsQuantity(currentDegreeList, degreeList);
 
     if(searchedArcana === 'all'){
       searchForDegree(currentDegreeList);
@@ -146,8 +150,9 @@ searchButton.addEventListener('click', () => {
 
 const ulArcanas = document.querySelector('#arcanas');
 ulArcanas.addEventListener('click', (e) => {
+  
 
-  searchedArcana = e.target.innerText.toLowerCase();
+  searchedArcana = e.target.querySelector('a').innerText.toLowerCase();
 
   isShowingFavoriteSpells = false;
 
@@ -252,3 +257,28 @@ function isToShowEmptyFavorites(boolean){
     sectionSpells.classList.remove('hidden')
   }
 }
+
+function countSpellsQuantity(arcanaObj, arcana){
+  // console.log(arcanaObj, arcana);
+
+  let totalSpells = 0;
+
+  for (const key in arcanaObj) {
+    totalSpells += arcanaObj[key].length;
+    // console.log(arcanaObj[key].length)
+  }
+
+  const spanArcanaCount = document.getElementById(arcana);
+  spanArcanaCount.textContent = `(${totalSpells})`;
+
+  allArcanaQuantity += totalSpells;
+  // console.log(allArcanaQuantity);
+  const spanArcanaAllCount = document.getElementById('all');
+  spanArcanaAllCount.innerText = `(${allArcanaQuantity})`;
+  // spanArcanaAllCount.textContent += allArcanaQuantity + Number(spanArcanaAllCount.textContent);
+  // console.log(anchorArcana);
+}
+
+// function resetSpellsQuantity(){
+//   const
+// }
