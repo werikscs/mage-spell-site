@@ -363,6 +363,7 @@ header{
     width: fit-content;
     flex-direction: row;
     margin-left: 12px;
+    padding-right: 0;
   }
 
   .search-input input{
